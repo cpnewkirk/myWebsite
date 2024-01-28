@@ -1,6 +1,9 @@
+import home from "../assets/home.jpg";
+
 function Home() {
   return (
-    <div className="blogItem text-start">
+    <div className="page text-start ">
+      <img className="object-fit-fill rounded w-100 mb-4" src={home} />
       <p>
         Agile leader with experience since 2015 in event planning and community
         relations through student involvement. Detail-oriented and driven to

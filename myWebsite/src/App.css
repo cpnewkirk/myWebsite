@@ -3,7 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  background-color: #F6F6F2;
+  background-color: #f6f6f2;
 }
 
 .logo {
@@ -13,10 +13,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #6FB3B8);
+  filter: drop-shadow(0 0 2em #6fb3b8);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #6FB3B8);
+  filter: drop-shadow(0 0 2em #6fb3b8);
 }
 
 @keyframes logo-spin {
@@ -43,7 +43,7 @@
 }
 
 .social-container {
-  background: #BADFE7;
+  background: #badfe7;
   padding: 25px 50px;
 }
 
@@ -81,9 +81,12 @@ a.github {
   color: #333;
 }
 
-.blogItem {
-  max-width: 50%;
-  translate: 50%;
+.page {
+  max-width: 100%;
+  @media (min-width: 768px) {
+    max-width: 50%;
+    translate: 50%;
+  }
 }
 
 .CV {
@@ -108,4 +111,16 @@ a.github {
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.nav-tabs .nav-link {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: solid 4px white !important;
 }

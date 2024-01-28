@@ -21,7 +21,7 @@ function BlogItem(blog) {
   }
 
   return (
-    <div id={blog.id} className="blogItem">
+    <div id={blog.id} className="page">
       <article>
         <div>
           <h2>{blog.title}</h2>

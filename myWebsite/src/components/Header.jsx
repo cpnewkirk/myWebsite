@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { LinkContainer } from "react-router-bootstrap";
@@ -13,7 +11,7 @@ function Header() {
         <p>Maximizer | Strategic | Achiever | Positivity | Learner</p>
       </div>
       <Navbar className="d-flex justify-content-center m-auto">
-        <Nav>
+        <Nav variant="pills" defaultActiveKey="/">
           <LinkContainer to="/">
             <Nav.Link>Home</Nav.Link>
           </LinkContainer>
