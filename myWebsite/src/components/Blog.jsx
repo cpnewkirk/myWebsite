@@ -6,7 +6,6 @@ function Blog() {
   const [blogTag, setBlogTag] = useState();
   const [blogsList, setBlogsList] = useState(blogs_arr);
 
-  console.log(blogsList);
   function onTagChange(event) {
     setBlogTag(event.target.value);
   }

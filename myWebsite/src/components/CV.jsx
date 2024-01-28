@@ -1,9 +1,10 @@
-import Collapsible from "react-collapsible";
+import CollapseContainer from "./CollapseContainer";
 
 function CV() {
   return (
-    <div className="CV">
-      <Collapsible trigger="EDUCATION">
+    <div className="CV ">
+      <h4>Learn more about me with this interactive curriculum vitae.</h4>
+      <CollapseContainer button="EDUCATION">
         <h2>
           University of Oklahoma <span className="p">| Norman, OK </span>
           <i>May 2023</i>
@@ -26,9 +27,8 @@ function CV() {
             May 2019 Summer Abroad - Activism, Leadership and Culture in Mexico
           </i>
         </h2>
-      </Collapsible>
-
-      <Collapsible trigger="EMPLOYMENT">
+      </CollapseContainer>
+      <CollapseContainer button="EMPLOYMENT">
         <ul>
           <h2>
             Capital One <span className="p">| McLean, VA</span>
@@ -256,8 +256,8 @@ function CV() {
             </p>
           </li>
         </ul>
-      </Collapsible>
-      <Collapsible trigger="LEADERSHIP EXPERIENCE">
+      </CollapseContainer>
+      <CollapseContainer button="LEADERSHIP EXPERIENCE">
         <ul>
           <li>
             <p />
@@ -418,9 +418,8 @@ function CV() {
             </p>
           </li>
         </ul>
-      </Collapsible>
-      <Collapsible trigger="INVOLVEMENT">
-        <p />
+      </CollapseContainer>
+      <CollapseContainer button="INVOLVEMENT">
         <p>
           Society of Hispanic Professional Engineers | DC Professional Chapter |
           Member August 2023 - Present
@@ -435,19 +434,11 @@ function CV() {
         <p>Capital One | Hispanics in Tech | Member August 2023 - Present</p>
         <p>Capital One | HOLA | Member August 2023 - Present</p>
         <p>Capital One | Out Front | Member August 2023 - Present</p>
-        <p>
-          <br />
-        </p>
-      </Collapsible>
-      <Collapsible trigger="HONORS AND AWARDS">
-        <p />
+      </CollapseContainer>
+      <CollapseContainer button="HONORS AND AWARDS">
         <p>XXX</p>
-        <p>
-          <br />
-        </p>
-      </Collapsible>
-      <Collapsible trigger="SERVICE">
-        <p />
+      </CollapseContainer>
+      <CollapseContainer button="SERVICE">
         <p>Parade Volunteer, Seattle July 2023, 5 Hours</p>
         <p>Food Forest Clean Up, Austin July 2023, 3 Hours</p>
         <p>NILA Facilitator, Virtual July 2023, 8 Hours</p>
@@ -455,12 +446,8 @@ function CV() {
         <p>Community Food Pantry, New York City June 2023, 2 hours</p>
         <p>North Avenue Beach Cleanup, Chicago June 2023, 1 hour</p>
         <p>L.A. Works Listos, Los Angeles June 2023, 2 hours</p>
-        <p>
-          <br />
-        </p>
-      </Collapsible>
-      <Collapsible trigger="PROJECTS AND RESEARCH">
-        <p />
+      </CollapseContainer>
+      <CollapseContainer button="PROJECTS AND RESEARCH">
         <h2>
           SHPE Website <span className="p">| University of Oklahoma </span>
           <i>Dec 2022</i>
@@ -579,8 +566,8 @@ function CV() {
             plan moving forward.
           </p>
         </li>
-      </Collapsible>
-      <Collapsible trigger="SKILLS">
+      </CollapseContainer>
+      <CollapseContainer button="SKILLS">
         <li>
           <h2>
             Computing
@@ -601,8 +588,8 @@ function CV() {
             <span className="p">| Mill, Lathes, Drill Press, 3D Printers</span>
           </h2>
         </li>
-      </Collapsible>
-      <Collapsible trigger="SELECTED COURSEWORK">
+      </CollapseContainer>
+      <CollapseContainer button="SELECTED COURSEWORK">
         <p>
           Latin American Music and Politics Leadership and Activism: Human
           Trafficking
@@ -612,15 +599,16 @@ function CV() {
         <p>Leadership and Management for Engineers</p>
         <p>Intro to Gay and Lesbian Literature</p>
         <p>Understanding the Global Community</p>
-      </Collapsible>
-      <Collapsible trigger="CERTIFICATIONS">
+      </CollapseContainer>
+      <CollapseContainer button="CERTIFICATIONS">
         <h2>
-          Certified Secure Software Engineer<span className="p">Oct 2023</span>
+          Certified Secure Software Engineer
+          <span className="p">Oct 2023</span>
           Peace Corp Prep<span className="p">Oct 2022</span>
           <p>Secure Code WarriorSecure</p>
         </h2>
-      </Collapsible>
-      <Collapsible trigger="CONFERENCES">
+      </CollapseContainer>
+      <CollapseContainer button="CONFERENCES">
         <p>SHPE Leadership Live! - Dallas, TX Mar 2023, 3 days</p>
         <p>oSTEM - Boston, MA Nov 2022, 4 days</p>
         <p>SHPE National Convention - Charlotte, NC Nov 2022, 6 days</p>
@@ -648,7 +636,7 @@ function CV() {
           days
         </p>
         <p>Jerry Holmes Leadership Symposium - Norman, OK Feb 2020, 1 day</p>
-      </Collapsible>
+      </CollapseContainer>
     </div>
   );
 }

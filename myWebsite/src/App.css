@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #F6F6F2;
 }
 
 .logo {
@@ -12,10 +13,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #6FB3B8);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #6FB3B8);
 }
 
 @keyframes logo-spin {
@@ -42,7 +43,7 @@
 }
 
 .social-container {
-  background: #eee;
+  background: #BADFE7;
   padding: 25px 50px;
 }
 
@@ -72,15 +73,32 @@ a.instagram {
   color: black;
 }
 
+a.linkedin {
+  color: #0077b5;
+}
+
+a.github {
+  color: #333;
+}
+
 .blogItem {
   max-width: 50%;
   translate: 50%;
 }
 
 .CV {
-  width: 75%;
-  translate: 25%;
+  /* width: 75%; */
+  /* translate: 25%; */
   text-align: left;
+}
+
+.header {
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
 }
 
 .footer {

@@ -1,5 +1,6 @@
 import { useLocation, useParams, useNavigate } from "react-router-dom";
 import { blogs_arr } from "../data/blog_data";
+import { Button } from "react-bootstrap";
 
 function BlogItem(blog) {
   const loc = useLocation();
@@ -24,13 +25,16 @@ function BlogItem(blog) {
       <article>
         <div>
           <h2>{blog.title}</h2>
-          {!locationCheck ? (
-            <button onClick={moreDetails}>More Details</button>
-          ) : (
-            <button onClick={() => nav(-1)}>Go back</button>
-          )}
-          <p>{blog.date}</p>
-          <p>Tagged: {blog.tags}</p>
+
+          <div className="d-flex">
+            <p>{blog.date}</p>
+            {blog.tags && <p>Tagged: {blog.tags}</p>}
+            {!locationCheck ? (
+              <Button onClick={moreDetails}>More Details</Button>
+            ) : (
+              <Button onClick={() => nav(-1)}>Go back</Button>
+            )}
+          </div>
           <div
             dangerouslySetInnerHTML={{ __html: blog.body }}
             style={{ textAlign: "left" }}

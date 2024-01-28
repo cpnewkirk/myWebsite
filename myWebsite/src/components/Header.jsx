@@ -6,7 +6,7 @@ import { LinkContainer } from "react-router-bootstrap";
 
 function Header() {
   return (
-    <header>
+    <header className="header">
       <div>
         <img />
         <h1>Christian P. Newkirk</h1>

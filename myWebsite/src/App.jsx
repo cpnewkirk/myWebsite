@@ -10,6 +10,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HashRouter } from "react-router-dom";
 
 function App() {
+  document.body.style = "background-color: #F6F6F2;";
+
   return (
     <HashRouter>
       <Header />
