@@ -20,12 +20,16 @@ function BlogItem(blog) {
   }
 
   return (
-    <div id={blog.id}>
+    <div id={blog.id} className="blogItem">
       <article>
         <div>
           <button onClick={moreDetails}>{blog.title}</button>
-          <div dangerouslySetInnerHTML={{ __html: blog.body }}></div>
           <p>{blog.date}</p>
+          <p>{blog.tags}</p>
+          <div
+            dangerouslySetInnerHTML={{ __html: blog.body }}
+            style={{ textAlign: "left" }}
+          ></div>
         </div>
       </article>
     </div>

@@ -71,3 +71,7 @@ a.twitter {
 a.instagram {
   color: black;
 }
+
+.blogItem {
+  max-width: 50%;
+}
