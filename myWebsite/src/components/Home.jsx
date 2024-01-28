@@ -1,6 +1,6 @@
 function Home() {
   return (
-    <div className="blogItem" style={{ textAlign: "left" }}>
+    <div className="blogItem text-start">
       <p>
         Agile leader with experience since 2015 in event planning and community
         relations through student involvement. Detail-oriented and driven to

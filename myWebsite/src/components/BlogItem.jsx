@@ -1,5 +1,5 @@
 import { useLocation, useParams, useNavigate } from "react-router-dom";
-import { blogs_arr } from "../data/data";
+import { blogs_arr } from "../data/blog_data";
 
 function BlogItem(blog) {
   const loc = useLocation();
@@ -23,9 +23,14 @@ function BlogItem(blog) {
     <div id={blog.id} className="blogItem">
       <article>
         <div>
-          <button onClick={moreDetails}>{blog.title}</button>
+          <h2>{blog.title}</h2>
+          {!locationCheck ? (
+            <button onClick={moreDetails}>More Details</button>
+          ) : (
+            <button onClick={() => nav(-1)}>Go back</button>
+          )}
           <p>{blog.date}</p>
-          <p>{blog.tags}</p>
+          <p>Tagged: {blog.tags}</p>
           <div
             dangerouslySetInnerHTML={{ __html: blog.body }}
             style={{ textAlign: "left" }}

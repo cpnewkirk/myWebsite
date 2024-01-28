@@ -1,5 +1,5 @@
+import { blogs_arr } from "../data/blog_data";
 import BlogItem from "./BlogItem";
-import { blogs_arr } from "../data/data";
 import { useEffect, useState } from "react";
 
 function Blog() {

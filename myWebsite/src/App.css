@@ -82,3 +82,12 @@ a.instagram {
   translate: 25%;
   text-align: left;
 }
+
+.footer {
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

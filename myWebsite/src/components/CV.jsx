@@ -3,26 +3,6 @@ import Collapsible from "react-collapsible";
 function CV() {
   return (
     <div className="CV">
-      <Collapsible trigger="OBJECTIVE">
-        <p>
-          Agile leader with 7 years of experience in event planning and
-          community relations through student involvement. Detail-oriented and
-          driven to accomplish meaningful results. Values collaboration and
-          seeks an understanding of company goals. Seeking a full-time software
-          engineering position starting after May 2023.
-        </p>
-        <p>
-          Agile leader with 8 years of experience in project management and
-          professional development through student involvement.
-        </p>
-        <p>
-          Detail-oriented problem solver that is driven to accomplish meaningful
-          outcomes that reflect Capital One's goals. Seeking a full-time
-          position as a Capital One Developer Academy Associate in the August
-          2023 cohort.
-        </p>
-      </Collapsible>
-
       <Collapsible trigger="EDUCATION">
         <h2>
           University of Oklahoma <span className="p">| Norman, OK </span>
@@ -440,74 +420,71 @@ function CV() {
         </ul>
       </Collapsible>
       <Collapsible trigger="INVOLVEMENT">
-
-      <p />
-      <p>
-        Society of Hispanic Professional Engineers | DC Professional Chapter |
-        Member August 2023 - Present
-      </p>
-      <p className="s3">
-        University of Oklahoma Young Engineering Alumni | DC Correspondent
-        <i>January 2024 - Present</i>
-      </p>
-      <p>
-        Tau Beta Pi | DC Professional Chapter | Member August 2023 - Present
-      </p>
-      <p>Capital One | Hispanics in Tech | Member August 2023 - Present</p>
-      <p>Capital One | HOLA | Member August 2023 - Present</p>
-      <p>Capital One | Out Front | Member August 2023 - Present</p>
-      <p>
-        <br />
-      </p>
+        <p />
+        <p>
+          Society of Hispanic Professional Engineers | DC Professional Chapter |
+          Member August 2023 - Present
+        </p>
+        <p className="s3">
+          University of Oklahoma Young Engineering Alumni | DC Correspondent
+          <i>January 2024 - Present</i>
+        </p>
+        <p>
+          Tau Beta Pi | DC Professional Chapter | Member August 2023 - Present
+        </p>
+        <p>Capital One | Hispanics in Tech | Member August 2023 - Present</p>
+        <p>Capital One | HOLA | Member August 2023 - Present</p>
+        <p>Capital One | Out Front | Member August 2023 - Present</p>
+        <p>
+          <br />
+        </p>
       </Collapsible>
       <Collapsible trigger="HONORS AND AWARDS">
-
-      <p />
-      <p>XXX</p>
-      <p>
-        <br />
-      </p>
+        <p />
+        <p>XXX</p>
+        <p>
+          <br />
+        </p>
       </Collapsible>
       <Collapsible trigger="SERVICE">
-      <p />
-      <p>Parade Volunteer, Seattle July 2023, 5 Hours</p>
-      <p>Food Forest Clean Up, Austin July 2023, 3 Hours</p>
-      <p>NILA Facilitator, Virtual July 2023, 8 Hours</p>
-      <p>Food pantry, Washington D.C. June 2023, 3 hours</p>
-      <p>Community Food Pantry, New York City June 2023, 2 hours</p>
-      <p>North Avenue Beach Cleanup, Chicago June 2023, 1 hour</p>
-      <p>L.A. Works Listos, Los Angeles June 2023, 2 hours</p>
-      <p>
-        <br />
-      </p>
+        <p />
+        <p>Parade Volunteer, Seattle July 2023, 5 Hours</p>
+        <p>Food Forest Clean Up, Austin July 2023, 3 Hours</p>
+        <p>NILA Facilitator, Virtual July 2023, 8 Hours</p>
+        <p>Food pantry, Washington D.C. June 2023, 3 hours</p>
+        <p>Community Food Pantry, New York City June 2023, 2 hours</p>
+        <p>North Avenue Beach Cleanup, Chicago June 2023, 1 hour</p>
+        <p>L.A. Works Listos, Los Angeles June 2023, 2 hours</p>
+        <p>
+          <br />
+        </p>
       </Collapsible>
       <Collapsible trigger="PROJECTS AND RESEARCH">
-      <p />
-      <h2>
-        SHPE Website <span className="p">| University of Oklahoma </span>
-        <i>Dec 2022</i>
-      </h2>
-      <p className="s1">Society of Hispanic Professional Engineers</p>
-      {/* <ul id="l3">
-        <li data-list-text="●">
-          <p>
-            Developed 9 pages of HTML and CSS for interactive website
-            (ou.edu/shpe).
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Led communication between 5 committees to showcase relevant
-            information and achievements on front page
-          </p>
-          <h2>
-            Additive Manufacturing of Composites
-            <span className="p">| University of Oklahoma </span>
-            <i>
-              Aug 2020 - Feb 2021 Smart Materials and Intelligent Systems Lab
-            </i>
-          </h2>
-        </li>
+        <p />
+        <h2>
+          SHPE Website <span className="p">| University of Oklahoma </span>
+          <i>Dec 2022</i>
+        </h2>
+        <p className="s1">Society of Hispanic Professional Engineers</p>
+        <ul id="l3">
+          <li data-list-text="●">
+            <p>
+              Developed 9 pages of HTML and CSS for interactive website
+              (ou.edu/shpe).
+            </p>
+          </li>
+          <li data-list-text="●">
+            <p>
+              Led communication between 5 committees to showcase relevant
+              information and achievements on front page
+            </p>
+          </li>
+        </ul>{" "}
+        <h2>
+          Additive Manufacturing of Composites
+          <span className="p">| University of Oklahoma </span>
+          <i>Aug 2020 - Feb 2021 Smart Materials and Intelligent Systems Lab</i>
+        </h2>
         <li data-list-text="●">
           <p>
             Optimized 20+ samples in SolidWorks and Repetier Host to print and
@@ -582,27 +559,9 @@ function CV() {
             Executed water samples to measure the reclamation of a previously
             eutrophic lake.
           </p>
-          <h2>
-            Cardboard Boat <span className="p">| University of Oklahoma </span>
-            <i>Apr 2019</i>
-          </h2>
         </li>
+        <li data-list-text="●"></li>
         <li data-list-text="●">
-          <p>
-            Develop a boat out of cardboard to carry the weight of one person
-            down a pool lane and back.
-          </p>
-          <h2>
-            Pringle Chip Challenge
-            <span className="p">| University of Oklahoma </span>
-            <i>Feb 2019</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Designed container on the basis of using as little material as
-            possible with the smallest cost.
-          </p>
           <h2>
             Smart Mirror <span className="p">| University of Oklahoma </span>
             <i>Dec 2018</i>
@@ -619,39 +578,10 @@ function CV() {
             Evaluated previous iterations over a 1-week period to ensure best
             plan moving forward.
           </p>
-          <h2>
-            Pumpkin Drop <span className="p">| University of Oklahoma </span>
-            <i>Oct 2018</i>
-          </h2>
         </li>
-        <li data-list-text="●">
-          <p>
-            Formulated the presentation and initiated each new step in the
-            design process.
-          </p>
-          <h2>
-            Model Splash Pad{" "}
-            <span className="p">| University of Oklahoma </span>
-            <i>July 2018</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Launched a splash pad with four working attractions and
-            music-controlled water valves.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Produced the group presentation and organized individual tasks while
-            communicating with the professor.
-          </p>
-          <p>
-            <br />
-          </p>
-          </Collapsible>
-          <Collapsible trigger="SKILLS">
-          <p />
+      </Collapsible>
+      <Collapsible trigger="SKILLS">
+        <li>
           <h2>
             Computing
             <span className="p">
@@ -670,70 +600,55 @@ function CV() {
             Machines
             <span className="p">| Mill, Lathes, Drill Press, 3D Printers</span>
           </h2>
-          </li>
-          <p>
-            <br />
-          </p>
-          </Collapsible>
-          <Collapsible trigger="SELECTED COURSEWORK">
-          <p />
-          <p>
-            Latin American Music and Politics Leadership and Activism: Human
-            Trafficking Intermediate Spanish Continued
-          </p>
-          <p>CADD Fundamentals</p>
-          <p>
-            Leadership and Management for Engineers Intro to Gay and Lesbian
-            Literature Understanding the Global Community
-          </p>
-          <p>
-            <br />
-          </p>
-          </Collapsible>
-          <Collapsible trigger="CERTIFICATIONS">
-          <p />
-          <h2>
-            Peace Corp Prep<span className="p">Oct 2022</span>
-          </h2>
-          <p>
-            <br />
-          </p>
-          </Collapsible>
-          <Collapsible trigger="CONFERENCES">
-          <p />
-          <p>SHPE Leadership Live! - Dallas, TX Mar 2023, 3 days</p>
-          <p>oSTEM - Boston, MA Nov 2022, 4 days</p>
-          <p>SHPE National Convention - Charlotte, NC Nov 2022, 6 days</p>
-          <p>
-            National Institute for Leadership Advancement - Orlando, FL Aug
-            2021, 3 days
-          </p>
-          <p>Out 4 Undergrad Business - New York City, NY Apr 2022, 3 days</p>
-          <p>SHPE RLDC - College Station, TX Mar 2022, 3 days</p>
-          <p>SHPE National Convention - Orlando, FL Nov 2021, 6 days</p>
-          <p>
-            National Institute for Leadership Advancement - Virtual Aug 2021, 3
-            days
-          </p>
-          <p>SHPE RLDC - Virtual Mar 2021, 3 days</p>
-          <p>oSTEM - Virtual Nov 2020, 4 days</p>
-          <p>Space Vision 2020 (SEDS) - Virtual Nov 2020, 2 days</p>
-          <p>SHPE National Convention - Virtual Oct 2020, 6 days</p>
-          <p>SACNAS - Virtual Oct 2020, 6 days</p>
-          <p>
-            Oklahoma Supercomputing Symposium 2020 - Virtual Sept 2020, 1 day
-          </p>
-          <p>Professional Development Symposium - Virtual Sept 2020, 1 day</p>
-          <p>Out 4 Undergrad Engineering - Virtual Sept 2020, 5 days</p>
-          <p>
-            National Institute for Leadership Advancement - Virtual Aug 2020, 3
-            days
-          </p>
-          <p>Jerry Holmes Leadership Symposium - Norman, OK Feb 2020, 1 day</p>
-          <p>
-            <br />
-          </p>
-      </ul> */}
+        </li>
+      </Collapsible>
+      <Collapsible trigger="SELECTED COURSEWORK">
+        <p>
+          Latin American Music and Politics Leadership and Activism: Human
+          Trafficking
+        </p>
+        <p>Intermediate Spanish Continued</p>
+        <p>CADD Fundamentals</p>
+        <p>Leadership and Management for Engineers</p>
+        <p>Intro to Gay and Lesbian Literature</p>
+        <p>Understanding the Global Community</p>
+      </Collapsible>
+      <Collapsible trigger="CERTIFICATIONS">
+        <h2>
+          Certified Secure Software Engineer<span className="p">Oct 2023</span>
+          Peace Corp Prep<span className="p">Oct 2022</span>
+          <p>Secure Code WarriorSecure</p>
+        </h2>
+      </Collapsible>
+      <Collapsible trigger="CONFERENCES">
+        <p>SHPE Leadership Live! - Dallas, TX Mar 2023, 3 days</p>
+        <p>oSTEM - Boston, MA Nov 2022, 4 days</p>
+        <p>SHPE National Convention - Charlotte, NC Nov 2022, 6 days</p>
+        <p>
+          National Institute for Leadership Advancement - Orlando, FL Aug 2021,
+          3 days
+        </p>
+        <p>Out 4 Undergrad Business - New York City, NY Apr 2022, 3 days</p>
+        <p>SHPE RLDC - College Station, TX Mar 2022, 3 days</p>
+        <p>SHPE National Convention - Orlando, FL Nov 2021, 6 days</p>
+        <p>
+          National Institute for Leadership Advancement - Virtual Aug 2021, 3
+          days
+        </p>
+        <p>SHPE RLDC - Virtual Mar 2021, 3 days</p>
+        <p>oSTEM - Virtual Nov 2020, 4 days</p>
+        <p>Space Vision 2020 (SEDS) - Virtual Nov 2020, 2 days</p>
+        <p>SHPE National Convention - Virtual Oct 2020, 6 days</p>
+        <p>SACNAS - Virtual Oct 2020, 6 days</p>
+        <p>Oklahoma Supercomputing Symposium 2020 - Virtual Sept 2020, 1 day</p>
+        <p>Professional Development Symposium - Virtual Sept 2020, 1 day</p>
+        <p>Out 4 Undergrad Engineering - Virtual Sept 2020, 5 days</p>
+        <p>
+          National Institute for Leadership Advancement - Virtual Aug 2020, 3
+          days
+        </p>
+        <p>Jerry Holmes Leadership Symposium - Norman, OK Feb 2020, 1 day</p>
+      </Collapsible>
     </div>
   );
 }
