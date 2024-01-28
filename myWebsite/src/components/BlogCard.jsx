@@ -40,7 +40,7 @@ function BlogCard(blog) {
   }
 
   return (
-    <Card className="col-4 m-5">
+    <Card className="col-4">
       <img alt="Sample" src={blog.thumbnail} />
       <CardBody className="m-2">
         <CardTitle tag="h5">{blog.title}</CardTitle>

@@ -1,46 +1,38 @@
-import { useLocation, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { blogs_arr } from "../data/blog_data";
-import { Button } from "react-bootstrap";
+import {
+  CardTitle,
+  CardSubtitle,
+  CardText,
+  Button,
+  CardBody,
+  Card,
+} from "reactstrap";
 
 function BlogItem(blog) {
-  const loc = useLocation();
   const nav = useNavigate();
   const { id } = useParams();
 
-  let idName = "";
-  const locationCheck = loc.pathname.includes("/blog/");
-
-  if (locationCheck) {
-    blog = blogs_arr.find((blog) => blog.id == id);
-  }
-
-  function moreDetails(event) {
-    const blogId = blog.id;
-    event.preventDefault();
-    nav(`/blog/${blogId}`);
-  }
+  blog = blogs_arr.find((blog) => blog.id == id);
 
   return (
     <div id={blog.id} className="page">
-      <article>
-        <div>
+      <Card className="mw-100">
+        <CardBody>
           <h2>{blog.title}</h2>
-
-          <div className="d-flex">
-            <p>{blog.date}</p>
-            {blog.tags && <p>Tagged: {blog.tags}</p>}
-            {!locationCheck ? (
-              <Button onClick={moreDetails}>More Details</Button>
-            ) : (
-              <Button onClick={() => nav(-1)}>Go back</Button>
-            )}
-          </div>
-          <div
+          <CardSubtitle className="row m-3">
+            <p className="col-3">{blog.date}</p>
+            {blog.tags && <p className="col">Tagged: {blog.tags}</p>}
+            <Button className="col-3" onClick={() => nav(-1)}>
+              Go back
+            </Button>
+          </CardSubtitle>
+          <CardText
             dangerouslySetInnerHTML={{ __html: blog.body }}
             style={{ textAlign: "left" }}
-          ></div>
-        </div>
-      </article>
+          ></CardText>
+        </CardBody>
+      </Card>
     </div>
   );
 }

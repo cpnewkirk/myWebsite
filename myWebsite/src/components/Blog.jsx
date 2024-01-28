@@ -21,7 +21,7 @@ function Blog() {
   }, [blogTag]);
 
   return (
-    <div className="w-100">
+    <div>
       <Form className="page text-end">
         <FormGroup row>
           <Label htmlFor="tags" sm={3}>
