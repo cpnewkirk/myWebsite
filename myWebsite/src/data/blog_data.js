@@ -11,4 +11,5 @@ export const blogs_arr = [
 
   { title: "title", body: "example", date: "01/01/2000", id: 2 },
   { title: "title", body: "example", date: "01/01/2000", id: 3 },
+  { title: "title", body: "example", date: "01/01/2000", id: 4 },
 ];

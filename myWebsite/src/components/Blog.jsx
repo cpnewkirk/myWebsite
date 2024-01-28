@@ -1,7 +1,7 @@
 import { blogs_arr } from "../data/blog_data";
 import BlogCard from "./BlogCard";
 import { useEffect, useState } from "react";
-import { Form, Input, Label, Col, FormGroup } from "reactstrap";
+import { Form, Input, Label, Col, Row, FormGroup } from "reactstrap";
 
 function Blog() {
   const [blogTag, setBlogTag] = useState();
@@ -21,8 +21,8 @@ function Blog() {
   }, [blogTag]);
 
   return (
-    <div>
-      <Form>
+    <div className="w-100">
+      <Form className="page text-end">
         <FormGroup row>
           <Label htmlFor="tags" sm={3}>
             Filter by Tag:
@@ -47,7 +47,7 @@ function Blog() {
           </Col>
         </FormGroup>
       </Form>
-      <Col className="d-flex">
+      <Row className="blogs justify-content-md-center">
         {blogsList.map((blog) => (
           <BlogCard
             key={blog.id}
@@ -59,7 +59,7 @@ function Blog() {
             date={blog.date}
           />
         ))}
-      </Col>
+      </Row>
     </div>
   );
 }

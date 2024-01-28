@@ -27,7 +27,7 @@ function BlogCard(blog) {
 
   const html = blog.body;
   const text = convert(html, options);
-  const description = text.replace(/\[.+?\]/, "").substring(0, 215);
+  const description = text.replace(/\[.+?\]/, "");
 
   if (locationCheck) {
     blog = blogs_arr.find((blog) => blog.id == id);
@@ -40,19 +40,14 @@ function BlogCard(blog) {
   }
 
   return (
-    <Card
-      style={{
-        width: "18rem",
-      }}
-      className="flex-fill"
-    >
+    <Card className="col-4 m-5">
       <img alt="Sample" src={blog.thumbnail} />
-      <CardBody>
+      <CardBody className="m-2">
         <CardTitle tag="h5">{blog.title}</CardTitle>
         <CardSubtitle className="mb-2 text-muted" tag="h6">
           {blog.date}
         </CardSubtitle>
-        <CardText>{description}...</CardText>
+        <CardText className="hideOverflow">{description}</CardText>
         <Button onClick={moreDetails}>More Details</Button>
       </CardBody>
     </Card>
