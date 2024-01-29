@@ -1,0 +1,185 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding-top: 2.5rem;
+  text-align: center;
+  background-color: #f6f6f2;
+  padding: 1rem;
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: auto;
+  }
+}
+
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+  border-radius: 5px;
+  width: 75%;
+  @media (min-width: 768px) {
+    width: 100%;
+  }
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #6fb3b8);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.social-container {
+  background: #badfe7;
+  padding: 1rem;
+  width: 100%;
+  max-width: 100%;
+
+  @media (min-width: 768px) {
+    padding: 25px 50px;
+  }
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 10px;
+
+  @media (min-width: 768px) {
+    padding: 5px;
+  }
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
+}
+
+a.linkedin {
+  color: #0077b5;
+}
+
+a.github {
+  color: #333;
+}
+
+.page {
+  padding-top: 5rem;
+
+  @media (min-width: 768px) {
+    padding-top: 2rem;
+    width: 50%;
+    translate: 50%;
+  }
+}
+
+.CV {
+  padding: 1rem;
+  padding-top: 4rem;
+  text-align: left;
+  max-width: 700px;
+
+  @media (min-width: 768px) {
+    padding-top: 2rem;
+  }
+}
+
+.header {
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: auto;
+  background-color: #badfe7;
+}
+
+.footer {
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.navbar-nav {
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-tabs .nav-link {
+  background-color: transparent !important;
+  color: #ffffff !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.nav-tabs .nav-link.active {
+  border-bottom: solid 4px white !important;
+}
+
+.hideOverflow {
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  display: -webkit-box;
+}
+
+.blogs {
+  text-align: left;
+  gap: 1rem;
+  padding: 0rem 1rem;
+
+  @media (min-width: 768px) {
+    gap: 2rem;
+  }
+}
+
+#resizeButton {
+  padding: 5px;
+  margin: 10px;
+
+  @media (min-width: 768px) {
+    width: 16%;
+    margin: 0;
+  }
+}
