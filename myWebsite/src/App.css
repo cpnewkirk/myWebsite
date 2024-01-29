@@ -141,8 +141,8 @@ a.github {
 }
 
 .navbar-nav {
-  text-align: center;
-  margin: auto;
+  align-items: center;
+  gap: 5px;
 }
 
 .nav-tabs .nav-link {

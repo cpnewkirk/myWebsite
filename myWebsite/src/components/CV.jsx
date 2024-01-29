@@ -7,637 +7,604 @@ function CV() {
         Learn more about me with this interactive curriculum vitae.
       </h4>
       <CollapseContainer button="EDUCATION">
-        <h2>
-          University of Oklahoma <span className="p">| Norman, OK </span>
+        <div>
+          <h5>University of Oklahoma | Norman, OK </h5>
           <i>May 2023</i>
-        </h2>
-        <p className="s1">
-          Bachelor of Science in <b>Mechanical Engineering</b>, Certificate in
-          <b>Engineering Leadership </b>
-          <b>GPA 3.94/4.00</b>
-        </p>
-        <p>Honors College</p>
-        <h2>
-          University of Oklahoma Italian Study Center
-          <span className="p">| Arezzo, Italy </span>
+          <p>
+            Bachelor of Science in <b>Mechanical Engineering</b>, Certificate in
+            <b> Engineering Leadership </b> <p>Honors College</p>
+            <b>GPA 3.94/4.00</b>
+          </p>
+        </div>
+        <div className="my-5">
+          <h5>University of Oklahoma Italian Study Center | Arezzo, Italy</h5>
           <i>May - June 2022 Summer Abroad - Engineers in Italy STEAM</i>
-        </h2>
-        <h2>
-          Universidad Popular Autónoma del Estado de Puebla
-          <span className="p">| Puebla, México </span>
+        </div>
+        <div>
+          <h5>
+            Universidad Popular Autónoma del Estado de Puebla | Puebla, México
+          </h5>
           <i>
-            May 2019 Summer Abroad - Activism, Leadership and Culture in Mexico
+            May 2019 Summer Abroad - Activism, Leadership and Culture in México
           </i>
-        </h2>
+        </div>
       </CollapseContainer>
       <CollapseContainer button="EMPLOYMENT">
-        <ul>
-          <h2>
-            Capital One <span className="p">| McLean, VA</span>
-          </h2>
-          <p className="s1">Associate Software Engineer Aug 2023 - Present</p>
-          <p className="s1">
-            CODA (Capital One Developer Academy) Aug 2023 - Present
-          </p>
-          <li data-list-text="●">
-            <p>
+        <div>
+          <h5>Capital One | McLean, VA</h5>
+          <i>Associate Software Engineer | Aug 2023 - Present</i>
+          <ul>
+            <li className="ml-5">
               Participating in a 6-month software-engineering immersive training
               with the following learning objectives:
-            </p>
-            <ul id="l2">
-              <li data-list-text="o">
-                <p>
+              <ul>
+                <li>
                   Write HTML, CSS, and JavaScript that displays as intended in
                   modern browsers.
-                </p>
-              </li>
-              <li data-list-text="o">
-                <p>
+                </li>
+                <li>
                   Develop back-end web applications and APIs using a modern
                   programming language, RESTful patterns, and the MVC web
                   development framework
-                </p>
-              </li>
-              <li data-list-text="o">
-                <p>Develop dynamic front-end applications using Angular</p>
-              </li>
-              <li data-list-text="o">
-                <p>
+                </li>
+                <li>Develop dynamic front-end applications using React</li>
+                <li>
                   Consume web APIs from third-party sites like Twitter or Yelp
-                </p>
-              </li>
-              <li data-list-text="o">
-                <p>Learn the process of deployment to cloud services</p>
-              </li>
-              <li data-list-text="o">
-                <p>
+                </li>
+                <li>Learn the process of deployment to cloud services</li>
+                <li>
                   Collaborate within a team using an agile development workflow
                   and collaboration practices in Git
-                </p>
-                <h2>
-                  Spirit AeroSystems <span className="p">| Wichita, KS</span>
-                </h2>
-                <p className="s1">
-                  Diversity, Equity, and Inclusion Intern June 2022 - Aug 2022
-                </p>
-              </li>
-            </ul>
-          </li>
-          <li data-list-text="●">
-            <p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            University of Oklahoma, Jeannine Rainbolt College of Education |
+            Norman, OK
+          </h5>
+          <i>Transformative Tutoring Initiative Tutor | Apr 2022 - May 2023</i>
+          <ul>
+            <li>
+              Provided individualized math tutoring to 9th-grade students,
+              fostering a supportive learning environment tailored to their
+              needs and pace.
+            </li>
+            <li>
+              Acted as a mentor to high school students, encouraging honesty and
+              openness about their understanding of mathematical concepts.
+            </li>
+            <li>
+              Contributed to research on the impact of high-dosage tutoring on
+              student motivation and engagement in academic settings.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Spirit AeroSystems | Wichita, KS</h5>
+          <i>Diversity, Equity, and Inclusion Intern | June 2022 - Aug 2022</i>
+          <ul>
+            <li>
               Developed and support partnerships with professional associations
               and community members by doing programming outreach events.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Researched and developed relevant social media and communications
               for 2022 and 2023 by investigating best practices and trends in
               the community.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Worked with employee business resource groups on talent
               acquisition, webpage updates, and other initiatives.
-            </p>
-            <p className="s1">Design Engineering Intern May 2021 - Aug 2021</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+          <i>Design Engineering Intern | May 2021 - Aug 2021</i>
+          <ul>
+            <li>
               Utilized CATIA and Enovia to initiate a part material change from
               titanium to aluminum, decreasing the cost and weight of the
               aircraft.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Executed quality checks for 65 parts, including picture sheets and
               details of the Boeing 737-MAX.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Prepared and presented project presentation for upper management
               during the technology project expo.
-            </p>
-            <h2>
-              University of Oklahoma Jeannine Rainbolt College of Education
-              <span className="p">| Norman, OK </span>
-              <i>Apr 2022 - Present Transformative Tutoring Initiative Tutor</i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">Teach math</p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">Weekly trainings including</p>
-            <h2>
-              University of Oklahoma Sooner Engineering Education Center
-              <span className="p">| Norman, OK </span>
-              <i>
-                June 2021 - Dec 2022 Sooner Engineering Education Ambassador
-              </i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">Educate about engineering</p>
-            <h2>
-              University of Oklahoma Office of Admissions & Recruitment
-              <span className="p">| Norman, OK </span>
-              <i>May 2021 - May 2022 Honors College Ambassador</i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            University of Oklahoma, Sooner Engineering Education Center |
+            Norman, OK
+          </h5>
+          <i>Sooner Engineering Education Ambassador | June 2021 - Dec 2022</i>
+
+          <ul>
+            <li>
+              Collaborated with the SEED Center outreach team to plan, organize,
+              and execute educational outreach activities, fostering engagement
+              with engineering concepts among diverse audiences.
+            </li>
+            <li>
+              Demonstrated leadership potential by gradually assuming
+              responsibilities in coordinating outreach initiatives at the Rawl
+              Engineering Practice Facility and other locations.
+            </li>
+            <li>
+              Adapted to varied tasks and responsibilities supporting the
+              outreach mission, leveraging individual strengths and interests to
+              enhance the effectiveness of engineering education initiatives.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            University of Oklahoma, Office of Admissions & Recruitment | Norman,
+            OK
+          </h5>
+          <i>Honors College Ambassador | May 2021 - May 2022</i>
+          <ul>
+            <li>
               Collaborate with university leadership to develop and implement
               recruitment strategies that align with the mission and goals of
               the department and institution
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+            <li>
               Engage families and prospective students with personalized tours
               to support their campus visit
-            </p>
-            <h2>
-              University of Oklahoma Office of Diversity and Inclusion{" "}
-              <span className="p">| Norman, OK </span>
-              <i>Aug 2019 - Mar 2022 Engineering Tutor</i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            University of Oklahoma, Office of Diversity and Inclusion | Norman,
+            OK
+          </h5>
+          <i>Engineering Tutor | Aug 2019 - Mar 2022</i>
+          <ul>
+            <li>
               Improve academic performance of 5 students per day in physics,
               calculus, and other engineering courses.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Lead study groups of up to 10 students in preparation for exams or
               projects through in-person instruction.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Remediate student performance by analyzing and developing 1-month
               study plans to promote successful studying.
-            </p>
-            <h2>
-              Spirit AeroSystems <span className="p">| Wichita, KS </span>
-              <i>May 2021 - Aug 2021</i>
-            </h2>
-            <p className="s1">Design Engineering Intern</p>
-          </li>
-          <li data-list-text="●">
-            <p>
-              Utilized CATIA and Enovia to initiate a part material change from
-              titanium to aluminum, decreasing the cost and weight of the
-              aircraft.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
-              Executed quality checks for 65 parts, including picture sheets and
-              details of the Boeing 737-MAX.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
-              Prepared and presented project presentation for upper management
-              during the technology project expo.
-            </p>
-            <h2>
-              University of Oklahoma Office of Diversity and Inclusion
-              <span className="p">| Norman, OK </span>
-              <i>July 2019, July 2020 AT&T Summer Bridge Camp Counselor</i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+          <i>AT&T Summer Bridge Camp Counselor | July 2019, July 2020 </i>
+          <ul>
+            <li>
               Facilitated positive relationships between the students and
               counselors.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>Mediated conflict between students.</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>Mediated conflict between students.</li>
+            <li>
               Led activities to ensure a high-quality experience for the
               students.
-            </p>
-            <h2>
-              Oklahoma Biological Survey{" "}
-              <span className="p">| Norman, OK </span>
-              <i>Nov 2018 - Apr 2020 Undergraduate Student Assistant</i>
-            </h2>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Oklahoma Biological Survey | Norman, OK</h5>
+          <i>Undergraduate Student Assistant | Nov 2018 - Apr 2020 </i>
+          <ul>
+            <li>
               Operated and programmed the WordPress website for the Biological
               Survey and affiliated programs when needed.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Processed data from data stations around the state of Oklahoma for
               the Oklahoma Native Seed Library.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Conducted field work with Priscilla Crawford Ph.D and the
               Biological Survey's senior students for their projects.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Administered activities and events hosted by the Biological Survey
               throughout the year.
-            </p>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </CollapseContainer>
       <CollapseContainer button="LEADERSHIP EXPERIENCE">
-        <ul>
-          <li>
-            <p />
-            <h2>
-              Society of Hispanic Professional Engineers{" "}
-              <span className="p">| University of Oklahoma </span>
-              <i>Aug 2018 - Present</i>
-            </h2>
-            <p className="s1">
-              National Convention Inclusion Committee Vice Chair Jan 2024 -
-              Present
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
-              Collaborate with company representatives on X workshops for
+        <div>
+          <h5>Society of Hispanic Professional Engineers</h5>
+          <i>
+            National Convention Inclusion Committee Vice Chair | Jan 2024 -
+            Present
+          </i>
+          <ul>
+            <li>
+              Collaborate with company representatives on 6 workshops for
               inclusion track
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>Support X communities from x, x, x,</p>
-          </li>
-          <li data-list-text="●">
-            <p>Support 12,000+ convention attendees</p>
-            <p className="s1">President Apr 2022 - May 2023</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
+              Support 12,000+ convention attendees through inclusion efforts.
+            </li>
+          </ul>
+          <i>
+            President of University of Oklahoma Chapter | Apr 2022 - May 2023
+          </i>
+          <ul>
+            <li>
               Evaluate assessment and elevate organizational structure,
               allocating a $16,000 budget to increase campus impact
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Pioneer new and effective relationships with campus and regional
               leadership to promote community engagement for targeted 400+
               Hispanic engineering community on campus
-            </p>
-            <p className="s1">
-              Vice President of Membership May 2021 - Apr 2022
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+
+          <i>Vice President of Membership | May 2021 - May 2022</i>
+          <ul>
+            <li>
               Led executive committee on external and internal communications
               related to recruitment and retention.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Managed event planning each semester, ranging from volunteerism,
               academic excellence, and community building activities for 150
               members.
-            </p>
-            <p className="s1">Community Service Chair May 2020 - May 2021</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+          <i>Community Service Chair | May 2020 - May 2021</i>
+          <ul>
+            <li>
               Raised 104 volunteer hours, 203 canned goods, and 162 clothing
               items through volunteer opportunities, a food drive, and a
               clothing drive to give back to the local community.
-            </p>
-            <h2>
-              Tau Beta Pi <span className="p">| University of Oklahoma </span>
-              <i>Nov 2020 - Present</i>
-            </h2>
-            <p className="s1">President June 2021 - May 2022</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Tau Beta Pi</h5>
+          <i>
+            President of Universoty of Oklahoma Chapter | June 2021 - May 2022
+          </i>
+          <ul>
+            <li>
               Managed recruitment and retention efforts in accordance with our
               strategies.
-            </p>
-            <h2>
-              Class Council <span className="p">| University of Oklahoma </span>
-              <i>Sept 2018 - Present</i>
-            </h2>
-            <p className="s1">Executive Vice-Chair Apr 2021 - May 2022</p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Class Council | University of Oklahoma</h5>
+          <i>Executive Vice-Chair | Apr 2021 - May 2022</i>
+          <ul>
+            <li>
               Coordinate outreach efforts for 12 social media accounts with a
               combined following of 7,426 followers by supervising 4 publicity
               coordinators and maintain brand guidelines
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+            <li>
               Manage a $2,000 budget for programming and recruitment efforts
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Support the executive chair through all event programming,
               communications, and outreach opportunities.
-            </p>
-            <p className="s1">Executive Chair May 2020 - May 2021</p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+          </ul>
+          <i>Executive Chair | May 2020 - May 2021</i>
+          <ul>
+            <li>
               Evaluated assessment and elevated organizational structure,
               reallocating a $20,000 budget to increase campus impact
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p className="s3">
+            </li>
+            <li>
               Negotiated event logistics through task manager software and
               maintained morale in a virtual environment by implementing
               personal check-ins
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Established effective working relationships with university
               leadership and other student organizations to promote community
               engagement on campus through event programming.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Developed succession planning for 7 leadership roles to reflect
               our strategic document by analyzing the resources needed for the
               success of each position.
-            </p>
-            <p className="s1">
-              Vice Chair of Internal Relations Mar 2019 - May 2020
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+
+          <i>Vice Chair of Internal Relations | Mar 2019 - May 2020</i>
+          <ul>
+            <li>
               Effectively facilitated coordination and quality of leadership
               development activities by leading a team of 9 Relations
               Coordinators.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Drove new strategies to engage our membership with campus
               activities to promote unity.
-            </p>
-            <h2>
-              Engineers' Club{" "}
-              <span className="p">| University of Oklahoma </span>
-              <i>Aug 2018 - Present</i>
-            </h2>
-            <p className="s1">Engineering Royalty Feb 2021 - Feb 2022</p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Engineers' Club | University of Oklahoma</h5>
+          <i>Engineering Royalty Feb 2021 - Feb 2022</i>
+          <ul>
+            <li>
               Represent the Gallogly College of Engineering at campus events and
               maintain relationships with donors.
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Coordinate the College of Engineering homecoming efforts with
               other engineering organizations.
-            </p>
-          </li>
-        </ul>
+            </li>
+          </ul>
+        </div>
       </CollapseContainer>
       <CollapseContainer button="INVOLVEMENT">
-        <p>
-          Society of Hispanic Professional Engineers | DC Professional Chapter |
-          Member August 2023 - Present
-        </p>
-        <p className="s3">
-          University of Oklahoma Young Engineering Alumni | DC Correspondent
-          <i>January 2024 - Present</i>
-        </p>
-        <p>
-          Tau Beta Pi | DC Professional Chapter | Member August 2023 - Present
-        </p>
-        <p>Capital One | Hispanics in Tech | Member August 2023 - Present</p>
-        <p>Capital One | HOLA | Member August 2023 - Present</p>
-        <p>Capital One | Out Front | Member August 2023 - Present</p>
+        <div>
+          <h5>
+            Society of Hispanic Professional Engineers | DC Professional Chapter
+          </h5>
+          <ul>
+            <li>
+              <i>Member | August 2023 - Present</i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            University of Oklahoma Young Engineering Alumni | DC Professional
+            Chapter
+          </h5>
+          <ul>
+            <li>
+              <i>DC Correspondent | January 2024 - Present</i>
+            </li>
+            <li>
+              <i>Member | August 2023 - Present</i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Tau Beta Pi | DC Professional Chapter</h5>
+          <ul>
+            <li>
+              <i>Member | August 2023 - Present</i>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Capital One</h5>
+          <ul>
+            <li>
+              <i>Hispanics in Tech | Member | August 2023 - Present</i>
+            </li>
+            <li>
+              <i>HOLA | Member | August 2023 - Present</i>
+            </li>
+            <li>
+              <i>Out Front | Member | August 2023 - Present</i>
+            </li>
+          </ul>
+        </div>
       </CollapseContainer>
-      <CollapseContainer button="HONORS AND AWARDS">
+      {/* <CollapseContainer button="HONORS AND AWARDS">
         <p>XXX</p>
-      </CollapseContainer>
+      </CollapseContainer> */}
       <CollapseContainer button="SERVICE">
-        <p>Parade Volunteer, Seattle July 2023, 5 Hours</p>
-        <p>Food Forest Clean Up, Austin July 2023, 3 Hours</p>
-        <p>NILA Facilitator, Virtual July 2023, 8 Hours</p>
-        <p>Food pantry, Washington D.C. June 2023, 3 hours</p>
-        <p>Community Food Pantry, New York City June 2023, 2 hours</p>
-        <p>North Avenue Beach Cleanup, Chicago June 2023, 1 hour</p>
-        <p>L.A. Works Listos, Los Angeles June 2023, 2 hours</p>
+        <ul>
+          <li>Parade Volunteer, Seattle July 2023, 5 Hours</li>
+          <li>Food Forest Clean Up, Austin July 2023, 3 Hours</li>
+          <li>NILA Facilitator, Virtual July 2023, 8 Hours</li>
+          <li>Food pantry, Washington D.C. June 2023, 3 hours</li>
+          <li>Community Food Pantry, New York City June 2023, 2 hours</li>
+          <li>North Avenue Beach Cleanup, Chicago June 2023, 1 hour</li>
+          <li>L.A. Works Listos, Los Angeles June 2023, 2 hours</li>
+        </ul>
       </CollapseContainer>
       <CollapseContainer button="PROJECTS AND RESEARCH">
-        <h2>
-          SHPE Website <span className="p">| University of Oklahoma </span>
-          <i>Dec 2022</i>
-        </h2>
-        <p className="s1">Society of Hispanic Professional Engineers</p>
-        <ul id="l3">
-          <li data-list-text="●">
-            <p>
+        <div>
+          <h5>SHPE Website | University of Oklahoma | Dec 2022</h5>
+          <i>Society of Hispanic Professional Engineers</i>
+          <ul>
+            <li>
               Developed 9 pages of HTML and CSS for interactive website
               (ou.edu/shpe).
-            </p>
-          </li>
-          <li data-list-text="●">
-            <p>
+            </li>
+            <li>
               Led communication between 5 committees to showcase relevant
               information and achievements on front page
-            </p>
-          </li>
-        </ul>{" "}
-        <h2>
-          Additive Manufacturing of Composites
-          <span className="p">| University of Oklahoma </span>
-          <i>Aug 2020 - Feb 2021 Smart Materials and Intelligent Systems Lab</i>
-        </h2>
-        <li data-list-text="●">
-          <p>
-            Optimized 20+ samples in SolidWorks and Repetier Host to print and
-            determine the industrial application of 3D printing.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Produced a successful $1,000 budget utilizing Microsoft Excel to
-            ensure proper use of funds.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Formalized 1-month, 4-month, and 9-month goals to monitor success of
-            the project using a timeline.
-          </p>
-          <h2>
-            Autonomous Car <span className="p">| University of Oklahoma </span>
-            <i>Feb 2020 - May 2020</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Devised an autonomous car using 6 different Arduino modules to make
-            it operate on its own.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Developed Arduino code using open-source software to operate 4
-            motors and each module.
-          </p>
-          <h2>
-            Water Security Research{" "}
-            <span className="p">| University of Oklahoma </span>
-            <i>Oct 2019 - May 2020 Jim Chamberlain Ph.D</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Researched literature about water security and relating topics,
-            designed figures, and developed practice problems for future water
-            security textbook.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Consolidated data from different sources into graphs that describe
-            water trends in various countries or industries.
-          </p>
-          <h2>
-            Monarch Butterfly Research{" "}
-            <span className="p">| University of Oklahoma </span>
-            <i>Nov 2018 - Apr 2020 Priscilla Crawford Ph.D</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Furthered our data entry and advanced our initial time to introduce
-            these plants to the current ecosystem by germinating thousands of
-            seeds in advance and generating labels for each sample group.
-          </p>
-          <h2>
-            Lake Tranquility Reclamation{" "}
-            <span className="p">| University of Oklahoma </span>
-            <i>Oct 2018 - May 2019 Environmental Science Student Association</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Executed water samples to measure the reclamation of a previously
-            eutrophic lake.
-          </p>
-        </li>
-        <li data-list-text="●"></li>
-        <li data-list-text="●">
-          <h2>
-            Smart Mirror <span className="p">| University of Oklahoma </span>
-            <i>Dec 2018</i>
-          </h2>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Programmed a Raspberry Pi using code from GitHub to create a smart
-            mirror that increases daily productivity for the user.
-          </p>
-        </li>
-        <li data-list-text="●">
-          <p>
-            Evaluated previous iterations over a 1-week period to ensure best
-            plan moving forward.
-          </p>
-        </li>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            Additive Manufacturing of Composites | University of Oklahoma | Aug
+            2020 - Feb 2021
+          </h5>
+          <i>Smart Materials and Intelligent Systems Lab</i>
+          <ul>
+            <li>
+              Optimized 20+ samples in SolidWorks and Repetier Host to print and
+              determine the industrial application of 3D printing.
+            </li>
+            <li>
+              Produced a successful $1,000 budget utilizing Microsoft Excel to
+              ensure proper use of funds.
+            </li>
+            <li>
+              Formalized 1-month, 4-month, and 9-month goals to monitor success
+              of the project using a timeline.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Autonomous Car | Feb 2020 - May 2020</h5>
+          <i>Personal Project</i>
+          <ul>
+            <li>
+              Devised an autonomous car using 6 different Arduino modules to
+              make it operate on its own.
+            </li>
+            <li>
+              Developed Arduino code using open-source software to operate 4
+              motors and each module.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            Water Security Research | University of Oklahoma | Oct 2019 - May
+            2020
+          </h5>
+          <i>Jim Chamberlain Ph.D</i>
+          <ul>
+            <li>
+              Researched literature about water security and relating topics,
+              designed figures, and developed practice problems for future water
+              security textbook.
+            </li>
+            <li>
+              Consolidated data from different sources into graphs that describe
+              water trends in various countries or industries.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            Monarch Butterfly Research | University of Oklahoma | Nov 2018 - Apr
+            2020
+          </h5>
+          <i>Priscilla Crawford Ph.D</i>
+          <ul>
+            <li>
+              Furthered our data entry and advanced our initial time to
+              introduce these plants to the current ecosystem by germinating
+              thousands of seeds in advance and generating labels for each
+              sample group.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>
+            Lake Tranquility Reclamation | University of Oklahoma | Oct 2018 -
+            May 2019
+          </h5>
+          <i>Environmental Science Student Association</i>
+          <ul>
+            <li>
+              Executed water samples to measure the reclamation of a previously
+              eutrophic lake.
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <h5>Smart Mirror | Dec 2018</h5>
+          <i>Personal Project</i>
+          <ul>
+            <li>
+              Programmed a Raspberry Pi using code from GitHub to create a smart
+              mirror that increases daily productivity for the user.
+            </li>
+            <li>
+              Evaluated previous iterations over a 1-week period to ensure best
+              plan moving forward.
+            </li>
+          </ul>
+        </div>
       </CollapseContainer>
       <CollapseContainer button="SKILLS">
-        <li>
-          <h2>
-            Computing
-            <span className="p">
-              | Intermediate Java, Intermediate Python, Intermediate C++,
-              Arduino, Cybersecurity
-            </span>
-          </h2>
-          <h2>
-            Software
-            <span className="p">
-              | AutoCADD, Civil3D, MATLAB, SOLIDWORKS, LabVIEW, NI Multisim,
-              SIEMANS NX, CATIA, ENOVIA
-            </span>
-          </h2>
-          <h2>
-            Machines
-            <span className="p">| Mill, Lathes, Drill Press, 3D Printers</span>
-          </h2>
-        </li>
+        <h5>
+          Java, Python, C++, Javascript, HTML, CSS, React, Arduino,
+          Cybersecurity, AutoCADD, Civil3D, MATLAB, SOLIDWORKS, LabVIEW, NI
+          Multisim, SIEMANS NX, CATIA, ENOVIA
+        </h5>
       </CollapseContainer>
       <CollapseContainer button="SELECTED COURSEWORK">
-        <p>
-          Latin American Music and Politics Leadership and Activism: Human
-          Trafficking
-        </p>
-        <p>Intermediate Spanish Continued</p>
-        <p>CADD Fundamentals</p>
-        <p>Leadership and Management for Engineers</p>
-        <p>Intro to Gay and Lesbian Literature</p>
-        <p>Understanding the Global Community</p>
+        <ul>
+          <li>
+            Latin American Music and Politics Leadership and Activism: Human
+            Trafficking
+          </li>
+          <li>Intermediate Spanish Continued</li>
+          <li>CADD Fundamentals</li>
+          <li>Leadership and Management for Engineers</li>
+          <li>Intro to Gay and Lesbian Literature</li>
+          <li>Understanding the Global Community</li>
+        </ul>
       </CollapseContainer>
       <CollapseContainer button="CERTIFICATIONS">
-        <h2>
-          Certified Secure Software Engineer
-          <span className="p">Oct 2023</span>
-          Peace Corp Prep<span className="p">Oct 2022</span>
-          <p>Secure Code WarriorSecure</p>
-        </h2>
+        <ul>
+          <h5>Certified Secure Software Engineer | Oct 2023</h5>
+          <ul>
+            <li>Secure Code Warrior</li>
+          </ul>
+          <h5>Peace Corp Prep | Oct 2022</h5>
+        </ul>
       </CollapseContainer>
       <CollapseContainer button="CONFERENCES">
-        <p>SHPE Leadership Live! - Dallas, TX Mar 2023, 3 days</p>
-        <p>oSTEM - Boston, MA Nov 2022, 4 days</p>
-        <p>SHPE National Convention - Charlotte, NC Nov 2022, 6 days</p>
-        <p>
-          National Institute for Leadership Advancement - Orlando, FL Aug 2021,
-          3 days
-        </p>
-        <p>Out 4 Undergrad Business - New York City, NY Apr 2022, 3 days</p>
-        <p>SHPE RLDC - College Station, TX Mar 2022, 3 days</p>
-        <p>SHPE National Convention - Orlando, FL Nov 2021, 6 days</p>
-        <p>
-          National Institute for Leadership Advancement - Virtual Aug 2021, 3
-          days
-        </p>
-        <p>SHPE RLDC - Virtual Mar 2021, 3 days</p>
-        <p>oSTEM - Virtual Nov 2020, 4 days</p>
-        <p>Space Vision 2020 (SEDS) - Virtual Nov 2020, 2 days</p>
-        <p>SHPE National Convention - Virtual Oct 2020, 6 days</p>
-        <p>SACNAS - Virtual Oct 2020, 6 days</p>
-        <p>Oklahoma Supercomputing Symposium 2020 - Virtual Sept 2020, 1 day</p>
-        <p>Professional Development Symposium - Virtual Sept 2020, 1 day</p>
-        <p>Out 4 Undergrad Engineering - Virtual Sept 2020, 5 days</p>
-        <p>
-          National Institute for Leadership Advancement - Virtual Aug 2020, 3
-          days
-        </p>
-        <p>Jerry Holmes Leadership Symposium - Norman, OK Feb 2020, 1 day</p>
+        <ul>
+          <li>
+            SHPE National Convention - Salt Lake City, UT Nov 2023, 6 days
+          </li>
+          <li>SHPE Leadership Live! - Dallas, TX Mar 2023, 3 days</li>
+          <li>oSTEM - Boston, MA Nov 2022, 4 days</li>
+          <li>SHPE National Convention - Charlotte, NC Nov 2022, 6 days</li>
+          <li>
+            National Institute for Leadership Advancement - Orlando, FL Aug
+            2021, 3 days
+          </li>
+          <li>Out 4 Undergrad Business - New York City, NY Apr 2022, 3 days</li>
+          <li>SHPE RLDC - College Station, TX Mar 2022, 3 days</li>
+          <li>SHPE National Convention - Orlando, FL Nov 2021, 6 days</li>
+          <li>
+            National Institute for Leadership Advancement - Virtual Aug 2021, 3
+            days
+          </li>
+          <li>SHPE RLDC - Virtual Mar 2021, 3 days</li>
+          <li>oSTEM - Virtual Nov 2020, 4 days</li>
+          <li>Space Vision 2020 (SEDS) - Virtual Nov 2020, 2 days</li>
+          <li>SHPE National Convention - Virtual Oct 2020, 6 days</li>
+          <li>SACNAS - Virtual Oct 2020, 6 days</li>
+          <li>
+            Oklahoma Supercomputing Symposium 2020 - Virtual Sept 2020, 1 day
+          </li>
+          <li>Professional Development Symposium - Virtual Sept 2020, 1 day</li>
+          <li>Out 4 Undergrad Engineering - Virtual Sept 2020, 5 days</li>
+          <li>
+            National Institute for Leadership Advancement - Virtual Aug 2020, 3
+            days
+          </li>
+          <li>
+            Jerry Holmes Leadership Symposium - Norman, OK Feb 2020, 1 day
+          </li>
+        </ul>
       </CollapseContainer>
     </div>
   );
