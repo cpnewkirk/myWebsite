@@ -2,7 +2,7 @@ import CollapseContainer from "./CollapseContainer";
 
 function CV() {
   return (
-    <div className="CV ">
+    <div className="CV">
       <h4 className="text-center">
         Learn more about me with this interactive curriculum vitae.
       </h4>

@@ -20,10 +20,11 @@ function BlogItem(blog) {
       <Card className="mw-100">
         <CardBody>
           <h2>{blog.title}</h2>
-          <CardSubtitle className="row m-3">
-            <p className="col-3">{blog.date}</p>
-            {blog.tags && <p className="col">Tagged: {blog.tags}</p>}
-            <Button className="col-3" onClick={() => nav(-1)}>
+          <CardSubtitle className="row m-3 text-muted fst-italic justify-content-center">
+            <p className="col-10 text-capitalize m-0">
+              {blog.date} / Tagged: {blog.tags}
+            </p>
+            <Button id="resizeButton" onClick={() => nav(-1)}>
               Go back
             </Button>
           </CardSubtitle>

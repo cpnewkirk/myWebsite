@@ -22,10 +22,10 @@ function Blog() {
 
   return (
     <div>
-      <Form className="page text-end">
+      <Form className="page text-start">
         <FormGroup row>
           <Label htmlFor="tags" sm={3}>
-            Filter by Tag:
+            Filter by Category:
           </Label>
           <Col sm={9}>
             <Input

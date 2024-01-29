@@ -11,9 +11,11 @@ import {
 function ContactMe() {
   return (
     <div className="social-container">
-      <h3>Social Follow</h3>
-      <p>Reach out to me at my social media below or email me at</p> <br />
-      <p>cpnewkirk@gmail.com</p>
+      <h3>Contact Me</h3>
+      <p>
+        Reach out to me at any of my social media handles below or email me at
+      </p>
+      <h5 className="my-5 ">cpnewkirk@gmail.com</h5>
       <a
         href="https://www.facebook.com/christian.newkirk.77/"
         className="facebook social"
