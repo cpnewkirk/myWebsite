@@ -149,23 +149,23 @@ export const blogs_arr = [
     title: "Cinque Terre, Sorrento, and Capri, Italy",
     thumbnail:
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg",
-    body: `<p><img class="aligncenter wp-image-522 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt="" width="300"  /></p>
+    body: `<p><img class="aligncenter wp-image-522 size-medium forMobil300e" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt=""  /></p>
     
     <p>Life is about the memories that we make from our experiences. The last half of our study abroad program was just as eventful as the first and proved to be the perfect way to start the summer. One weekend we visited Cinque Terre, a collection of 5 towns along the coast. We were in Vernazza for a day and had the most marvelous time at the beach. The water was clear and the buildings vibrant.</p>
     
-    <p><img class="aligncenter wp-image-523 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-936419383-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-523 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-936419383-300x225.jpg" alt="" /></p>
     
     <p> Part of the program involved corporate visits. The first visit we went on was to Carpigiani, a gelato machine manufacturer. While there, we got to see how gelato is made using their machines and got to taste some afterward. This visit included a tour of the production line. Each of us was impacted by seeing real engineers working on the floor to improve processes for something as fun as gelato.</p>
     
-    <p><img class="aligncenter wp-image-521 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220609_172149-225x300.jpg" alt="" width="225" /></p>
+    <p><img class="aligncenter wp-image-521 size-medium forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220609_172149-225x300.jpg" alt="" /></p>
     
     <p>Towards the end of our time in Arezzo, the entire program took a pasta-making course. We made ravioli and tagliatelle under the guidance of the in-house chef, Fabio. This was an amazing experience that was built into the program for students. After the class, we cleaned up everything and ate what we created!</p>
     
-    <p><img class="aligncenter wp-image-520 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220613_121330-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-520 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220613_121330-300x225.jpg" alt="" /></p>
     
     <p>Completing our final project presentations for our class was relieving and what better way to celebrate than traveling across Italy. The program took a trip to Sorrento for two days, one of which was spent as a day trip to the island of Capri. On Capri, I hiked to the top with our dean and had a glorious view of the sea. Others took a boat trip to the blue grotto and got to swim.</p>
     
-    <p><img class="aligncenter wp-image-519 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-407189992-225x300.jpg" alt="" width="225" /></p>
+    <p><img class="aligncenter wp-image-519 size-medium forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-407189992-225x300.jpg" alt="" /></p>
     
     <p>The final night in Sorrento was bittersweet as we relaxed on the rooftop overlooking the sunset. It was an amazing time and a phenomenal way to end our program. We were off to Rome for our last night and were able to have one last meal together before each of us hopped on our flights back to the United States. I learned so much about myself and made new best friends on this trip and am so thankful for this experience.</p>`,
     tags: ["Abroad"],
@@ -182,15 +182,15 @@ export const blogs_arr = [
     
     <p>Studying abroad on the engineering program in Italy has already been so rewarding and we are only one and a half weeks into the four-week program. Staying in Rome the first few days was so incredible. We’ve been immersing ourselves in Italian and can fully order in Italian now and know our way around the cities we’ve been visiting. After the ten-hour flight, we visited the Trevi Fountain where we threw in coins as part of the legend that if you throw one coin: you will return to Rome. If you throw two coins: you will fall in love with an attractive Italian. If you throw three coins: you will marry the person that you met.</p>
     
-    <p><img class="wp-image-512 size-medium aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/281640196_353506040207687_2177041533430939776_n-225x300.jpg" alt="" width="225"  /></p>
+    <p><img class="wp-image-512 size-medium aligncenter forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/281640196_353506040207687_2177041533430939776_n-225x300.jpg" alt=""  /></p>
     
     <p>Next on the list was the Colosseum, Forum, and Pantheon. This was a packed day, and we were exhausted by the end of it. My favorite was the Colosseum because of how interesting it was to here about how they used it and the engineering behind the architecture. Each of the other places were just as breathtaking with their art. The last few stops in Rome were the Vatican Museum and Saint Peter’s Basilica. It was incredible to see the Sistine Chapel in person.</p>
     
-    <p><img class="aligncenter wp-image-510 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280373312_515682663593904_8733215157463547145_n-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-510 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280373312_515682663593904_8733215157463547145_n-300x225.jpg" alt=""   /></p>
     
     <p>I can’t wait to visit Rome again, but now we’re off to Arezzo to start class and experience the OU in Arezzo campus. Arezzo is a small town comparable to the size of Norman, Oklahoma. While here, we’ve done lots of shopping and exploring while looking for new places to eat and relax. One of my favorite places is the Medici fortress park. We’ve had a picnic there one night and plan to relax there more. I can’t fail to mention the beach trip we took one weekend to Viareggio. The Mediterranean Sea was so cold, but it felt so amazing. There was jellyfish in the water with us.</p>
     
-    <p><img class="aligncenter wp-image-511 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280462972_5100387926683706_4327218665900868378_n-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-511 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280462972_5100387926683706_4327218665900868378_n-300x225.jpg" alt=""  /></p>
     
     <p>This past week we took a trip to Florence to visit the Baptistry, Cathedral Museum, Museo Galileo, and Brunelleschi’s Dome. Climbing the dome was my favorite part. It was incredibly high up but getting to the top was so worth it. One of the most amazing experiences while we were here.</p>`,
     tags: ["Abroad"],
@@ -258,13 +258,13 @@ export const blogs_arr = [
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/download.jpg",
     body: `<p>
 
-    <img class="size-full wp-image-487 aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/download.jpg" alt="" width="312" height="161" /></p>
+    <img class="size-full wp-image-487 aligncenter forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/download.jpg" alt="" /></p>
     
      <p>This past week I was able to attend a talk hosted by the Out 4 Undergrad organization in partnership with The Centre for Global Inclusion. Out 4 Undergrad helps high-achieving LGBTQ+ undergraduates reach their full potential, and The Centre for Global Inclusion serves as a resource for research and education for individuals and organizations in their quest to improve diversity and inclusion practices around the world.</p>
     
      <p>Francesco Carbolante has over 10 years of experience as VP of Engineering at Qualcomm in France and many accolades in engineering management over research and development. He addressed how artificial intelligence can be used as a tool that contributes to more diverse and inclusive workplaces. The bias built into artificial intelligence is also addressed as a concern for the fate of diversity and inclusion.</p>
     
-     <p><img class="size-full wp-image-488 aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/1535501639177.jpg" alt="" width="400" height="400" /></p>
+     <p><img class="size-full wp-image-488 aligncenter forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/1535501639177.jpg" alt="" /></p>
     
      <p>Technological evolution effects society exponentially, for example, the way computers have shaped the workplace during COVID or how the internet connects the globe. This evolution is speeding up and the rate of computers evolving is increasing. Although technology can be a positive thing, it can cause more damage than benefit. This is going to be more intelligence in everyday appliance but that does not mean it can do what we want. Despite this intelligence, it is important to think critically and not believe anything a computer says.</p>
     
@@ -546,7 +546,7 @@ export const blogs_arr = [
     
      <p>When it came down to announce the winners, there was a voting calculation error but it was handled well. At first, the wrong winners were announced, but the IAC president promptly apologized and the emcees were able to keep us entertained for the correct winners to be announced. The third judge also had amazing comments to share about the hard work that each candidate put into their experience and how each of them is destined for greatness.</p>
     
-     <p class="d-flex justify-content-around"><img class="alignnone size-medium wp-image-353" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159620109_3732874130164316_6520763662755380033_o-240x300.jpg" alt="" width="240" height="300" /> <img class="alignnone size-medium wp-image-354" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159822959_3732956523489410_5039551703690127759_o-240x300.jpg" alt="" width="240" height="300" /></p>
+     <p class="d-flex justify-content-around"><img class="alignnone size-medium wp-image-353 forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159620109_3732874130164316_6520763662755380033_o-240x300.jpg" alt="" /> <img class="alignnone size-medium wp-image-354 forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159822959_3732956523489410_5039551703690127759_o-240x300.jpg" alt="" /></p>
     
      <p>Pictured above are the two winners of this years pageant. On the left is contestant Shubhashree Hemant Sathe from India. She is a Freshman studying Psychology and Business Management.</p>
     
@@ -563,7 +563,7 @@ export const blogs_arr = [
     title: "Access to the COVID-19 Vaccine",
     thumbnail:
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2021/02/04Vaccinepassport-illo-superJumbo-219x300.jpg",
-    body: `<p><img class="wp-image-377 size-medium aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/02/04Vaccinepassport-illo-superJumbo-219x300.jpg" alt="" width="219" height="300" /></p>
+    body: `<p><img class="wp-image-377 size-medium aligncenter forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/02/04Vaccinepassport-illo-superJumbo-219x300.jpg" alt=""/></p>
 
      <p>Alongside the COVID-19 pandemic comes the rise of digital vaccination passports. This is an idea that is now moving towards reality with many airlines and even countries to ensure those traveling have proper documentation. Providing vaccination documentation is not new and or COVID-19 specific. In the past countries have required vaccination documentation of yellow fever, rubella, and cholera, to name a few examples (Felter). Imagine tapping your phone to a scanner and the airline receptionist receives all of your vaccinations. This would streamline some safety measures.</p>
     
@@ -717,7 +717,7 @@ export const blogs_arr = [
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2020/02/5e5689ac3137b.image_-300x200.jpg",
     body: `<p>These past few days the University of Oklahoma Black Emergency Response Team has been leading a sit-in Evans Hall, our administration building, in an effort to positively bring change the University. The event that triggered this sit-in is a history teacher using the n-word while in class, however this is not the first incident of the use of a racial slur on campus. Incidents have plagued the University of Oklahoma ever since its founding, but the more recent cases begin in 2015 with the Sigma Alpha Epsilon Fraternity singing a racist chant on a bus. (<a href="http://www.oudaily.com/news/timeline-a-look-at-racist-incidents-on-ou-s-campus/article_b3e6522a-58db-11ea-a74b-c31c3e6ae337.html">http://www.oudaily.com/news/timeline-a-look-at-racist-incidents-on-ou-s-campus/article_b3e6522a-58db-11ea-a74b-c31c3e6ae337.html</a>) The organization was removed from campus and was under investigation on a national level. Since then there have been numerous incidents of students and faculty using racial slurs or accepting racist actions. The purpose of the sit-in is to work together with the administration to create a plan that will actually promote a more diverse and inclusive environment on campus.</p>
 
-     <p><img class="alignnone size-medium wp-image-211 aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/02/5e5689ac3137b.image_-300x200.jpg" alt="" width="300" height="200" /></p>
+     <p><img class="alignnone size-medium wp-image-211 aligncenter forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/02/5e5689ac3137b.image_-300x200.jpg" alt="" /></p>
     
      <p>The OU Daily came up with 4 takeaways that describe the ending of the sit-in. (<a href="http://www.oudaily.com/news/ou-evans-hall-sit-in-takeaways-from-bert-s-agreement/article_773340e2-5a87-11ea-827b-bbe0f52e3ccb.html">http://www.oudaily.com/news/ou-evans-hall-sit-in-takeaways-from-bert-s-agreement/article_773340e2-5a87-11ea-827b-bbe0f52e3ccb.html</a>) This first of which involves how Provost Harper will remain in his position. BERT demanded that the provost be fired, however administration did not honor that demand. This was resolved by the agreement that a student advisory committee will be created to serve alongside the provost. Much else of what BERT had demanded will become a part of OU’s strategic plan that interim President Harroz has been working on in his time as President. BERT will be meeting with administration every two weeks to ensure progress is being made. Some of these decisions and actions will depend on how the Oklahoma Board of Regents react. One thing is for sure, there will be much more action happening at OU and less apology emails.</p>`,
     tags: ["International events"],
@@ -730,10 +730,10 @@ export const blogs_arr = [
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2020/01/IMG1641216348-300x169.jpg",
     body: `<p>For our January meeting, the Environmental Science Student Association joined forces with the Society of Asian Scientists &amp; Engineers and Vietnamese Student Association. The purpose of this was to focus on the cultural significance of Chinese New Year as well as learn how to recycle goods as decorations. We learned that 2020 is the year of the rat and how that “In Chinese culture, rats were seen as a sign of wealth and surplus. Because of their reproduction rate, married couples also prayed to them for children.” There is a myth that “the Jade Emperor said the order would be decided by the order in which they arrived to his party. The Rat tricked the Ox into giving him a ride. Then, just as they arrived at the finish line, Rat jumped down and landed ahead of Ox, becoming first.” (<a href="https://chinesenewyear.net/zodiac/rat/">https://chinesenewyear.net/zodiac/rat/</a>)</p>
 
-     <p><img class="alignnone size-medium wp-image-214 aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/01/IMG1641216348-300x169.jpg" alt="" width="300" height="169" /></p>
+     <p><img class="alignnone size-medium wp-image-214 aligncenter forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/01/IMG1641216348-300x169.jpg" alt=""  /></p>
     
      <p>Catering was from the Mandarin Chef and had fried rice and spring rolls. We did our best to cater to our vegan audiences and try to avoid catering any meat that is unnecessary due to the large amount of water used on cattle, chicken, and other animals that are raised in the meat industry.
-    <p style="text-align: center;"><img class="alignnone size-medium wp-image-215" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/01/bottlelantern.done3_.690-300x214.jpg" alt="" width="300" height="214" /></p>
+    <p style="text-align: center;"><img class="alignnone size-medium wp-image-215 forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2020/01/bottlelantern.done3_.690-300x214.jpg" alt="" /></p>
     We prepared crafts using various plastics and art supplies. Our upcycled lanterns let everyone use their creativity and have a fun relaxing time making something that had no instructions. This activity was a big hit with our members and we will definitely be doing this in the future. We hope to provide our members with the resources to live a waste free life.</p>`,
     tags: ["International events"],
     date: "Jan 30, 2020",
@@ -895,7 +895,7 @@ export const blogs_arr = [
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2018/11/IMG_2391-e1542303356567-200x300.jpg",
     body: `<p>Recently I have been bursting with the need to get back into my photography. The following picture was taken by yours truly to enter into the Visual Arts Scholastic Event in Texas. This was last year and I recieved a 4 out of 5 on this piece at the State level.</p>
 
-     <figure><img class="aligncenter wp-image-87 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2018/11/IMG_2391-e1542303356567-200x300.jpg" alt="" width="200" height="300" /> <figcaption>The Upper Crust</figcaption></figure>
+     <figure><img class="aligncenter wp-image-87 size-medium forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2018/11/IMG_2391-e1542303356567-200x300.jpg" alt="" /> <figcaption>The Upper Crust</figcaption></figure>
     
      <p>It was an incredible opportunity not only to participate in that event, but to do this photoshoot with my friend. We went to the Cottonmill in McKinney, Texas and had a blast getting to explore it and figure out what to do. The contrast present between the windows on the left and the dark room on the right help the audience to understand the image. Her dress is smiliar in color to the bricks to represent industry and how the upper class doesn't understand the toils of the lower classes, hence the tamper that is present.</p>
     
