@@ -377,13 +377,20 @@ Error generating stack: `+a.message+`
     
      <p>When it came down to announce the winners, there was a voting calculation error but it was handled well. At first, the wrong winners were announced, but the IAC president promptly apologized and the emcees were able to keep us entertained for the correct winners to be announced. The third judge also had amazing comments to share about the hard work that each candidate put into their experience and how each of them is destined for greatness.</p>
     
-     <p class="d-flex justify-content-around"><img class="alignnone size-medium wp-image-353 forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159620109_3732874130164316_6520763662755380033_o-240x300.jpg" alt="" /> <img class="alignnone size-medium wp-image-354 forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159822959_3732956523489410_5039551703690127759_o-240x300.jpg" alt="" /></p>
-    
-     <p>Pictured above are the two winners of this years pageant. On the left is contestant Shubhashree Hemant Sathe from India. She is a Freshman studying Psychology and Business Management.</p>
+     <p class="row justify-content-center">
+     
+     <img class="alignnone size-medium wp-image-353 p-2 col-12 col-sm-5" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159620109_3732874130164316_6520763662755380033_o-240x300.jpg" alt="" /> 
+     
+     <img class="alignnone size-medium wp-image-354 p-2 col-12 col-sm-5" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/03/159822959_3732956523489410_5039551703690127759_o-240x300.jpg" alt="" />
+     
+     </p>
+  
+
+     <p>Pictured above are the two winners of this years pageant. First is contestant Shubhashree Hemant Sathe from India. She is a Freshman studying Psychology and Business Management.</p>
     
     <p class="fst-italic">“I take pride in being an international student at OU and bringing that international aspect to the table, even after being faced with comments that were ignorant, racist and/or presumptuous.”</p>
     
-     <p>On the right is Samantha Hepburn from the Bahamas. She’s a freshman studying Economics and MIS.</p>
+     <p>Next is Samantha Hepburn from the Bahamas. She’s a freshman studying Economics and MIS.</p>
     
     <p class="fst-italic">"I believe that the international community brings a perspective to the OU community that can’t be found anywhere else and I would like to be an embodiment of these qualities."</p>`,tags:["International events"],date:"Mar 12, 2021",id:31},{title:"Access to the COVID-19 Vaccine",thumbnail:"http://cpnewkirk.oucreate.com/wp-content/uploads/2021/02/04Vaccinepassport-illo-superJumbo-219x300.jpg",body:`<p><img class="wp-image-377 size-medium aligncenter forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2021/02/04Vaccinepassport-illo-superJumbo-219x300.jpg" alt=""/></p>
 
