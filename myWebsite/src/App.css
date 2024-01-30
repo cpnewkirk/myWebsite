@@ -220,3 +220,19 @@ blockquote p::before {
 blockquote p::after {
   content: "\201D";
 }
+
+.forMobile300 {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 300px;
+  }
+}
+
+.forMobile225 {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 225px;
+  }
+}
