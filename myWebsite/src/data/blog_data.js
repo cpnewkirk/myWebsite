@@ -149,7 +149,7 @@ export const blogs_arr = [
     title: "Cinque Terre, Sorrento, and Capri, Italy",
     thumbnail:
       "http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg",
-    body: `<p><img class="aligncenter wp-image-522 size-medium forMobil300e" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt=""  /></p>
+    body: `<p><img class="aligncenter wp-image-522 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt=""  /></p>
     
     <p>Life is about the memories that we make from our experiences. The last half of our study abroad program was just as eventful as the first and proved to be the perfect way to start the summer. One weekend we visited Cinque Terre, a collection of 5 towns along the coast. We were in Vernazza for a day and had the most marvelous time at the beach. The water was clear and the buildings vibrant.</p>
     
