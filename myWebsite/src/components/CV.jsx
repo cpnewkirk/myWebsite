@@ -10,23 +10,28 @@ function CV() {
         <div>
           <h5>University of Oklahoma | Norman, OK </h5>
           <i>May 2023</i>
-          <p>
-            Bachelor of Science in <b>Mechanical Engineering</b>, Certificate in
-            <b> Engineering Leadership </b> <p>Honors College</p>
+          <ul>
+            Bachelor of Science in <b>Mechanical Engineering</b>
+            <br />
+            Certificate in<b> Engineering Leadership </b>
+            <br />
+            Honors College
+            <br />
             <b>GPA 3.94/4.00</b>
-          </p>
+          </ul>
         </div>
-        <div className="my-5">
+
+        <div>
           <h5>University of Oklahoma Italian Study Center | Arezzo, Italy</h5>
-          <i>May - June 2022 Summer Abroad - Engineers in Italy STEAM</i>
+          <i>May - June 2022</i>
+          <ul>Summer Abroad - Engineers in Italy STEAM</ul>
         </div>
         <div>
           <h5>
             Universidad Popular Autónoma del Estado de Puebla | Puebla, México
           </h5>
-          <i>
-            May 2019 Summer Abroad - Activism, Leadership and Culture in México
-          </i>
+          <i>May 2019</i>
+          <ul>Summer Abroad - Activism, Leadership and Culture in México</ul>
         </div>
       </CollapseContainer>
       <CollapseContainer button="EMPLOYMENT">

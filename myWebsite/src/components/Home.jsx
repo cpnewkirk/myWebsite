@@ -3,8 +3,8 @@ import home from "../assets/home.jpg";
 function Home() {
   return (
     <div className="page text-start row align-items-center justify-content-center">
-      <img className=" logo rounded object-fit-contain w-75 mb-4" src={home} />
-      <div className="col-10">
+      <img className=" logo object-fit-contain w-75 mb-4" src={home} />
+      <div className="col-10 card p-3">
         <p>
           Agile leader with experience since 2015 in event planning and
           community relations through student involvement. Detail-oriented and

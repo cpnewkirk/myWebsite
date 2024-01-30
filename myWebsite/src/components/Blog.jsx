@@ -7,14 +7,37 @@ function Blog() {
   const [blogTag, setBlogTag] = useState();
   const [blogsList, setBlogsList] = useState(blogs_arr);
 
+  // Refactor to iterate over all blogs and extract all unique tags from there
+  const blogsTotal = blogs_arr.length;
+  const abroadTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() == "abroad"
+  ).length;
+  const internationalEventsTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "international events"
+  ).length;
+  const internationalOrganizationTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "international organization"
+  ).length;
+  const internationalTopicTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "international topic"
+  ).length;
+  const photographyTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "photography"
+  ).length;
+  const uncategorizedTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "uncategorized"
+  ).length;
+
   function onTagChange(event) {
     setBlogTag(event.target.value);
   }
 
   useEffect(() => {
     if (blogTag) {
-      setBlogsList(blogs_arr.filter((blog) => blog.tags == blogTag));
-      if (blogTag === "All Blogs") {
+      setBlogsList(
+        blogs_arr.filter((blog) => blog.tags[0].toLowerCase() === blogTag)
+      );
+      if (blogTag === "all blogs") {
         setBlogsList(blogs_arr);
       }
     }
@@ -34,15 +57,23 @@ function Blog() {
               type="select"
               onChange={(event) => onTagChange(event)}
             >
-              <option value="All Blogs">All Blogs</option>
-              <option value="Abroad">Abroad</option>
-              <option value="International Events">International Events</option>
-              <option value="International Organization">
-                International Organization
+              <option value="all blogs">All Blogs ({blogsTotal})</option>
+              <option value="abroad">Abroad ({abroadTotal})</option>
+              <option value="international events">
+                International Events ({internationalEventsTotal})
               </option>
-              <option value="International Topic">International Topic</option>
-              <option value="Photography">Photography</option>
-              <option value="Uncategorized">Uncategorized</option>
+              <option value="international organization">
+                International Organization ({internationalOrganizationTotal})
+              </option>
+              <option value="international topic">
+                International Topic ({internationalTopicTotal})
+              </option>
+              <option value="photography">
+                Photography ({photographyTotal})
+              </option>
+              <option value="uncategorized">
+                Uncategorized ({uncategorizedTotal})
+              </option>
             </Input>
           </Col>
         </FormGroup>
