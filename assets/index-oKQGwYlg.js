@@ -127,23 +127,23 @@ Error generating stack: `+a.message+`
     
     <p>Identity and culture are two complex topics to unravel. Everyone shares multiple interwoven identities that contribute to their multi-dimensional culture. I feel like sometimes this can be overlooked and other pieces of identity can be forgotten. A question that I think of is, does strolling remain an African American tradition if it is practiced by many different communities? Is there a different tradition that the Latin and Asian communities can practice that gives respect to strolling, but is something different? I don’t know these answers, but think they are worth exploring.</p>
     
-    <p>To learn more about strolling, click <a href="https://jthomasbrandjournostrolling.wordpress.com/what-is-strolling/">here</a>.</p>`,tags:["International events"],date:"Sep 6, 2022",id:48},{title:"Cinque Terre, Sorrento, and Capri, Italy",thumbnail:"http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg",body:`<p><img class="aligncenter wp-image-522 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt="" width="300"  /></p>
+    <p>To learn more about strolling, click <a href="https://jthomasbrandjournostrolling.wordpress.com/what-is-strolling/">here</a>.</p>`,tags:["International events"],date:"Sep 6, 2022",id:48},{title:"Cinque Terre, Sorrento, and Capri, Italy",thumbnail:"http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg",body:`<p><img class="aligncenter wp-image-522 size-medium forMobil300e" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220604_131853-300x225.jpg" alt=""  /></p>
     
     <p>Life is about the memories that we make from our experiences. The last half of our study abroad program was just as eventful as the first and proved to be the perfect way to start the summer. One weekend we visited Cinque Terre, a collection of 5 towns along the coast. We were in Vernazza for a day and had the most marvelous time at the beach. The water was clear and the buildings vibrant.</p>
     
-    <p><img class="aligncenter wp-image-523 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-936419383-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-523 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-936419383-300x225.jpg" alt="" /></p>
     
     <p> Part of the program involved corporate visits. The first visit we went on was to Carpigiani, a gelato machine manufacturer. While there, we got to see how gelato is made using their machines and got to taste some afterward. This visit included a tour of the production line. Each of us was impacted by seeing real engineers working on the floor to improve processes for something as fun as gelato.</p>
     
-    <p><img class="aligncenter wp-image-521 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220609_172149-225x300.jpg" alt="" width="225" /></p>
+    <p><img class="aligncenter wp-image-521 size-medium forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220609_172149-225x300.jpg" alt="" /></p>
     
     <p>Towards the end of our time in Arezzo, the entire program took a pasta-making course. We made ravioli and tagliatelle under the guidance of the in-house chef, Fabio. This was an amazing experience that was built into the program for students. After the class, we cleaned up everything and ate what we created!</p>
     
-    <p><img class="aligncenter wp-image-520 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220613_121330-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-520 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/20220613_121330-300x225.jpg" alt="" /></p>
     
     <p>Completing our final project presentations for our class was relieving and what better way to celebrate than traveling across Italy. The program took a trip to Sorrento for two days, one of which was spent as a day trip to the island of Capri. On Capri, I hiked to the top with our dean and had a glorious view of the sea. Others took a boat trip to the blue grotto and got to swim.</p>
     
-    <p><img class="aligncenter wp-image-519 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-407189992-225x300.jpg" alt="" width="225" /></p>
+    <p><img class="aligncenter wp-image-519 size-medium forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/06/Snapchat-407189992-225x300.jpg" alt="" /></p>
     
     <p>The final night in Sorrento was bittersweet as we relaxed on the rooftop overlooking the sunset. It was an amazing time and a phenomenal way to end our program. We were off to Rome for our last night and were able to have one last meal together before each of us hopped on our flights back to the United States. I learned so much about myself and made new best friends on this trip and am so thankful for this experience.</p>`,tags:["Abroad"],date:"Jun 18, 2022",id:47},{title:"Rome to Arezzo to Florence, Italy",thumbnail:"http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/WhatsApp-Image-2022-05-26-at-12.16.45-PM-1024x467.jpeg",body:`<p>
 
@@ -151,15 +151,15 @@ Error generating stack: `+a.message+`
     
     <p>Studying abroad on the engineering program in Italy has already been so rewarding and we are only one and a half weeks into the four-week program. Staying in Rome the first few days was so incredible. We’ve been immersing ourselves in Italian and can fully order in Italian now and know our way around the cities we’ve been visiting. After the ten-hour flight, we visited the Trevi Fountain where we threw in coins as part of the legend that if you throw one coin: you will return to Rome. If you throw two coins: you will fall in love with an attractive Italian. If you throw three coins: you will marry the person that you met.</p>
     
-    <p><img class="wp-image-512 size-medium aligncenter" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/281640196_353506040207687_2177041533430939776_n-225x300.jpg" alt="" width="225"  /></p>
+    <p><img class="wp-image-512 size-medium aligncenter forMobile225" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/281640196_353506040207687_2177041533430939776_n-225x300.jpg" alt=""  /></p>
     
     <p>Next on the list was the Colosseum, Forum, and Pantheon. This was a packed day, and we were exhausted by the end of it. My favorite was the Colosseum because of how interesting it was to here about how they used it and the engineering behind the architecture. Each of the other places were just as breathtaking with their art. The last few stops in Rome were the Vatican Museum and Saint Peter’s Basilica. It was incredible to see the Sistine Chapel in person.</p>
     
-    <p><img class="aligncenter wp-image-510 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280373312_515682663593904_8733215157463547145_n-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-510 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280373312_515682663593904_8733215157463547145_n-300x225.jpg" alt=""   /></p>
     
     <p>I can’t wait to visit Rome again, but now we’re off to Arezzo to start class and experience the OU in Arezzo campus. Arezzo is a small town comparable to the size of Norman, Oklahoma. While here, we’ve done lots of shopping and exploring while looking for new places to eat and relax. One of my favorite places is the Medici fortress park. We’ve had a picnic there one night and plan to relax there more. I can’t fail to mention the beach trip we took one weekend to Viareggio. The Mediterranean Sea was so cold, but it felt so amazing. There was jellyfish in the water with us.</p>
     
-    <p><img class="aligncenter wp-image-511 size-medium" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280462972_5100387926683706_4327218665900868378_n-300x225.jpg" alt="" width="300"  /></p>
+    <p><img class="aligncenter wp-image-511 size-medium forMobile300" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/05/280462972_5100387926683706_4327218665900868378_n-300x225.jpg" alt=""  /></p>
     
     <p>This past week we took a trip to Florence to visit the Baptistry, Cathedral Museum, Museo Galileo, and Brunelleschi’s Dome. Climbing the dome was my favorite part. It was incredibly high up but getting to the top was so worth it. One of the most amazing experiences while we were here.</p>`,tags:["Abroad"],date:"May 28, 2022",id:46},{title:"SHPE Regional Conference",thumbnail:"http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/51932571683_0d5d6c5486_o-1024x683.jpg",body:`<p><img class="alignnone size-large wp-image-505" src="http://cpnewkirk.oucreate.com/wp-content/uploads/2022/02/51932571683_0d5d6c5486_o-1024x683.jpg" alt="" width="100%" /></p>
 
