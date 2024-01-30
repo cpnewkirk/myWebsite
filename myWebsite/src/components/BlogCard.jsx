@@ -38,7 +38,7 @@ function BlogCard(blog) {
   }
 
   return (
-    <Card className="col-12 col-md-3 col-lg-3">
+    <Card className="col-12 col-md-3 cardPic">
       {blog.thumbnail && (
         <img
           alt="Sample"

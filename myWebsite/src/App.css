@@ -41,8 +41,8 @@
 }
 
 .card {
-  border-radius: 1.5rem;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
+  --bs-card-border-radius: 1rem !important;
 }
 
 .read-the-docs {
@@ -188,10 +188,18 @@ a.github {
   }
 }
 
-.moduleItemIntrotext img {
-  max-height: 200px;
-  width: 100%;
+.cardPic {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.moduleItemIntrotext {
+  max-width: 100%;
+  /* min-height: 50%; */
+  height: 50%;
   object-fit: cover;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 
 .aligncenter {
