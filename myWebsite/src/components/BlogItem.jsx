@@ -8,23 +8,41 @@ import {
   CardBody,
   Card,
 } from "reactstrap";
+import { useEffect } from "react";
 
-function BlogItem(blog) {
+function BlogItem() {
   const nav = useNavigate();
   const { id } = useParams();
 
-  blog = blogs_arr.find((blog) => blog.id == id);
+  const blog = blogs_arr.find((blog) => blog.id == id);
+
+  const blogDate = new Date(blog.date);
+
+  const optionsDate = {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  };
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div id={blog.id} className="page">
-      <Card className="mw-100">
+      <Card className="mw-100 p-3">
         <CardBody>
           <h2>{blog.title}</h2>
           <CardSubtitle className="row m-3 text-muted fst-italic justify-content-center">
             <p className="col-10 text-capitalize m-0">
-              {blog.date} / Tagged: {blog.tags}
+              {blogDate.toLocaleDateString("en-US", optionsDate)} / Tagged:{" "}
+              {blog.tags}
             </p>
-            <Button id="resizeButton" onClick={() => nav(-1)}>
+            <Button
+              id="resizeButton"
+              style={{ backgroundColor: "#6FB3B8", borderColor: "#6FB3B8" }}
+              onClick={() => nav(-1)}
+            >
               Go back
             </Button>
           </CardSubtitle>

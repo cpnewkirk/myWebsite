@@ -15,7 +15,7 @@
 .logo {
   will-change: filter;
   transition: filter 300ms;
-  border-radius: 5px;
+  border-radius: 50px;
   width: 75%;
   @media (min-width: 768px) {
     width: 100%;
@@ -41,7 +41,7 @@
 }
 
 .card {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
 }
 
@@ -52,11 +52,15 @@
 .social-container {
   background: #badfe7;
   padding: 1rem;
+  padding-top: 2.5rem;
+  margin-top: 6rem;
   width: 100%;
   max-width: 100%;
+  border-radius: 50px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
 
   @media (min-width: 768px) {
-    padding: 25px 50px;
+    padding: 30px 50px;
   }
 }
 
@@ -75,8 +79,8 @@ a.social:hover {
   transform: translateY(-2px);
 }
 
-a.youtube {
-  color: #eb3223;
+a.email {
+  color: #388087;
 }
 
 a.facebook {
@@ -129,6 +133,7 @@ a.github {
   top: 0;
   height: auto;
   background-color: #badfe7;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.25);
 }
 
 .footer {
@@ -145,16 +150,15 @@ a.github {
   gap: 5px;
 }
 
-.nav-tabs .nav-link {
-  background-color: transparent !important;
-  color: #ffffff !important;
-  border-top: none !important;
-  border-left: none !important;
-  border-right: none !important;
+.nav-link {
+  background-color: #6fb3b8 !important;
+  /* width: 150px; */
+  --bs-nav-link-hover-color: white;
 }
 
-.nav-tabs .nav-link.active {
-  border-bottom: solid 4px white !important;
+.active {
+  background-color: #388087 !important;
+  color: white !important;
 }
 
 .hideOverflow {
@@ -182,4 +186,37 @@ a.github {
     width: 16%;
     margin: 0;
   }
+}
+
+.moduleItemIntrotext img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+blockquote {
+  margin: 0;
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: "\201C";
+}
+
+blockquote p::after {
+  content: "\201D";
 }
