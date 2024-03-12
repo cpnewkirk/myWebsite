@@ -402,7 +402,10 @@ function CV() {
           <h5>Capital One</h5>
           <ul>
             <li>
-              <i>Hispanics in Tech | Member | August 2023 - Present</i>
+              <i>
+                Hispanics in Tech | New Member Welcoming & Comms Team Lead |
+                August 2023 - Present
+              </i>
             </li>
             <li>
               <i>HOLA | Member | August 2023 - Present</i>
