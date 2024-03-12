@@ -8,7 +8,8 @@ function Header() {
       <div>
         <img />
         <h1>Christian P. Newkirk</h1>
-        <p>Maximizer | Strategic | Achiever | Positivity | Learner</p>
+        <p>Maximizer | Strategic | Achiever</p>
+        <p>Positivity | Learner</p>
       </div>
       <Navbar className="d-flex justify-content-center m-auto text-center">
         <Nav variant="pills" defaultActiveKey="/">
