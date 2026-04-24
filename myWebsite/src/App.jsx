@@ -6,8 +6,7 @@ import Blog from "./components/Blog";
 import Home from "./components/Home";
 import BlogItem from "./components/BlogItem";
 import ContactMe from "./components/ContactMe";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 
 function App() {
   document.body.style = "background-color: #F6F6F2;";

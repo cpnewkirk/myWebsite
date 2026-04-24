@@ -103,6 +103,18 @@ a.github {
   color: #333;
 }
 
+a.linktree {
+  color: rgb(99, 230, 190);
+}
+
+a.twitch {
+  color: #9146ff;
+}
+
+a.twitch:hover {
+  color: #1da1f2;
+}
+
 .page {
   padding-top: 5rem;
 
