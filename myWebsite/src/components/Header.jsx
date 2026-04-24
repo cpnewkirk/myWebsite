@@ -7,7 +7,7 @@ function Header() {
     <header className="header">
       <div>
         <h1>Christian P. Newkirk</h1>
-        <p>Maximizer | Strategic | Achiever | Positivity | Learner</p>
+        <p>Connectedness | Futuristic | Belief | Maximizer | Strategic</p>
       </div>
       <Navbar className="d-flex justify-content-center m-auto text-center">
         <Nav variant="pills" defaultActiveKey="/">
