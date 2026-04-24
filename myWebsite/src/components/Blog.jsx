@@ -10,22 +10,25 @@ function Blog() {
   // Refactor to iterate over all blogs and extract all unique tags from there
   const blogsTotal = blogs_arr.length;
   const abroadTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() == "abroad"
+    (blog) => blog.tags[0].toLowerCase() == "abroad",
   ).length;
   const internationalEventsTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() === "international events"
+    (blog) => blog.tags[0].toLowerCase() === "international events",
   ).length;
   const internationalOrganizationTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() === "international organization"
+    (blog) => blog.tags[0].toLowerCase() === "international organization",
   ).length;
   const internationalTopicTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() === "international topic"
+    (blog) => blog.tags[0].toLowerCase() === "international topic",
   ).length;
   const photographyTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() === "photography"
+    (blog) => blog.tags[0].toLowerCase() === "photography",
+  ).length;
+  const travelTotal = blogs_arr.filter(
+    (blog) => blog.tags[0].toLowerCase() === "travel",
   ).length;
   const uncategorizedTotal = blogs_arr.filter(
-    (blog) => blog.tags[0].toLowerCase() === "uncategorized"
+    (blog) => blog.tags[0].toLowerCase() === "uncategorized",
   ).length;
 
   function onTagChange(event) {
@@ -35,7 +38,7 @@ function Blog() {
   useEffect(() => {
     if (blogTag) {
       setBlogsList(
-        blogs_arr.filter((blog) => blog.tags[0].toLowerCase() === blogTag)
+        blogs_arr.filter((blog) => blog.tags[0].toLowerCase() === blogTag),
       );
       if (blogTag === "all blogs") {
         setBlogsList(blogs_arr);
@@ -71,6 +74,7 @@ function Blog() {
               <option value="photography">
                 Photography ({photographyTotal})
               </option>
+              <option value="travel">Travel ({travelTotal})</option>
               <option value="uncategorized">
                 Uncategorized ({uncategorizedTotal})
               </option>
