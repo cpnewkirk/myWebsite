@@ -1,10 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
-  faTwitter,
   faInstagram,
   faLinkedin,
   faGithub,
+  faTwitch,
+  faLinktree,
 } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -42,10 +43,10 @@ function ContactMe() {
         </div>
 
         <div className="col-6 col-sm-4">
-          <a href="https://twitter.com/cpnewkirk18" className="twitter social">
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          <a href="https://linktr.ee/cpnewkirk" className="linktree social">
+            <FontAwesomeIcon icon={faLinktree} size="2x" />
           </a>
-          <p>@CPNewkirk18</p>
+          <p>Linktree</p>
         </div>
 
         <div className="col-6 col-sm-4">
@@ -73,6 +74,13 @@ function ContactMe() {
             <FontAwesomeIcon icon={faGithub} size="2x" />
           </a>
           <p>cpnewkirk</p>
+        </div>
+
+        <div className="col-6 col-sm-4">
+          <a href="https://twitch.tv/cpnewkirk" className="twitch social">
+            <FontAwesomeIcon icon={faTwitch} size="2x" />
+          </a>
+          <p>Cozy Crispy</p>
         </div>
       </div>
     </div>
