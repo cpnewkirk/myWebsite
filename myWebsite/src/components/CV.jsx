@@ -37,31 +37,43 @@ function CV() {
       <CollapseContainer button="EMPLOYMENT">
         <div>
           <h5>Capital One | McLean, VA</h5>
-          <i>Associate Software Engineer | Aug 2023 - Present</i>
+          <i>Software Engineer | Aug 2023 - Present</i>
+          <h6>Check Processing Technology Platform</h6>
           <ul>
             <li className="ml-5">
-              Participating in a 6-month software-engineering immersive training
-              with the following learning objectives:
-              <ul>
-                <li>
-                  Write HTML, CSS, and JavaScript that displays as intended in
-                  modern browsers.
-                </li>
-                <li>
-                  Develop back-end web applications and APIs using a modern
-                  programming language, RESTful patterns, and the MVC web
-                  development framework
-                </li>
-                <li>Develop dynamic front-end applications using React</li>
-                <li>
-                  Consume web APIs from third-party sites like Twitter or Yelp
-                </li>
-                <li>Learn the process of deployment to cloud services</li>
-                <li>
-                  Collaborate within a team using an agile development workflow
-                  and collaboration practices in Git
-                </li>
-              </ul>
+              Develop serverless workflows in AWS Lambda and Step Functions,
+              writing Python logic for item validation and processing in
+              near-real-time, ensuring transaction integrity and customer fund
+              protection.
+            </li>
+            <li className="ml-5">
+              Design distributed DynamoDB systems for workflow state tracking
+              and reconciliation, handling 7.5M items and $11B in monthly
+              transactions with accuracy.
+            </li>
+            <li className="ml-5">
+              Build full-stack solutions, integrating backend APIs with
+              Angular/TypeScript dashboards, enabling real-time monitoring and
+              actionable insights for mission control teams.
+            </li>
+            <li className="ml-5">
+              Implement event-driven pipelines and testing, including parallel
+              execution, retry logic, and unit/integration tests, improving
+              reliability and throughput of high-volume workflows.
+            </li>
+            <li className="ml-5">
+              Monitor and alert using AWS SNS, proactively detecting workflow
+              failures to minimize downtime.
+            </li>
+            <li className="ml-5">
+              Optimize CI/CD pipelines with Jenkins and Git, enabling rapid,
+              reliable deployments across backend services, serverless
+              workflows, and dashboards.
+            </li>
+            <li className="ml-5">
+              Ensure secure, compliant cloud infrastructure, managing IAM
+              policies and Secrets Manager configurations for sensitive
+              financial data.
             </li>
           </ul>
         </div>
@@ -229,18 +241,26 @@ function CV() {
       </CollapseContainer>
       <CollapseContainer button="LEADERSHIP EXPERIENCE">
         <div>
-          <h5>Society of Hispanic Professional Engineers</h5>
+          <h5>
+            Society of Hispanic Professional Engineers | Washington D.C. Chapter
+          </h5>
+          <i>Vice President | Apr 2025 - Present</i>
+          <ul>
+            <li>
+              Develop chapter reporting metrics and leadership programming, and
+              serve on SHPE's Government Relations Committee supporting Virginia
+              STEM Advocacy Day and regional government engagement.
+            </li>
+          </ul>
           <i>
             National Convention Inclusion Committee Vice Chair | Jan 2024 -
             Present
           </i>
           <ul>
             <li>
-              Collaborate with company representatives on 6 workshops for
-              inclusion track
-            </li>
-            <li>
-              Support 12,000+ convention attendees through inclusion efforts.
+              Organized 6 professional workshops and 3 special events for SHPE's
+              national convention, contributing to programming supporting
+              12,000+ engineers, students, and industry partners.
             </li>
           </ul>
           <i>
@@ -549,9 +569,19 @@ function CV() {
       </CollapseContainer>
       <CollapseContainer button="SKILLS">
         <h5>
-          Java, Python, C++, Javascript, HTML, CSS, React, Arduino,
-          Cybersecurity, AutoCADD, Civil3D, MATLAB, SOLIDWORKS, LabVIEW, NI
-          Multisim, SIEMANS NX, CATIA, ENOVIA
+          Cloud & DevOps: AWS (Lambda, Step Functions, S3, DynamoDB, IAM,
+          Secrets Manager, SQS), Docker, CI/CD, Jenkins
+        </h5>
+        <h5>
+          Backend & APIs: Java, Python, JavaScript, REST APIs, MVC Frameworks
+        </h5>
+        <h5>Web: Angular, React, HTML, CSS</h5>
+        <h5>Tools & Observability: Git, Splunk, Salesforce Queues</h5>
+        <h5>Security: Cybersecurity</h5>
+        <h5>Additional Languages: C++, Arduino</h5>
+        <h5>
+          Certifications: AWS Certified Solutions Architect; Certified Secure
+          Software Engineer (Secure Code Warrior)
         </h5>
       </CollapseContainer>
       <CollapseContainer button="SELECTED COURSEWORK">
