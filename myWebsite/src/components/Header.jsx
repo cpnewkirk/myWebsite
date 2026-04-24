@@ -6,7 +6,6 @@ function Header() {
   return (
     <header className="header">
       <div>
-        <img />
         <h1>Christian P. Newkirk</h1>
         <p>Maximizer | Strategic | Achiever | Positivity | Learner</p>
       </div>
