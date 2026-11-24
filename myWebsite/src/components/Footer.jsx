@@ -1,18 +1,20 @@
-import Container from "react-bootstrap/Container";
-import NavbarBrand from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+import { site } from "../data.js";
 
-function Footer() {
+export default function Footer() {
   return (
-    <div className="footer">
-      <Navbar color="dark" className="d-flex justify-content-center m-auto">
-        <NavbarBrand>
-          © 2000-{new Date().getFullYear()} Christian Newkirk, All rights
-          reserved.
-        </NavbarBrand>
-      </Navbar>
-    </div>
+    <footer className="site-footer">
+      <div className="container footer-inner">
+        <p className="mb-0">
+          © {new Date().getFullYear()} {site.name} · {site.brand}
+        </p>
+        <nav aria-label="Footer" className="footer-links">
+          <Link to="/work">Work</Link>
+          <Link to="/about">About</Link>
+          <Link to="/cv">CV</Link>
+          <Link to="/contact">Contact</Link>
+        </nav>
+      </div>
+    </footer>
   );
 }
-
-export default Footer;
