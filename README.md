@@ -1,6 +1,6 @@
 # Living Archive Labs | Christian P. Newkirk
 
-Welcome to my website repository and thank you for visiting. This website is somewhere you can get to know me, find my CV, and learn about what I've been up to in my blog that I likely won't update! Click [here](https://cpnewkirk.github.io/myWebsite/) to start exploring! This is optimized for most mobile devices as well.
+Welcome to my website repository and thank you for visiting. This website is somewhere you can get to know me and find my CV! Click [here](https://cpnewkirk.github.io/myWebsite/) to start exploring! This is optimized for most mobile devices as well.
 
 ## Installation
 
