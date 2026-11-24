@@ -1,4 +1,4 @@
-# Christian P. Newkirk
+# Living Archive Labs | Christian P. Newkirk
 
 Welcome to my website repository and thank you for visiting. This website is somewhere you can get to know me, find my CV, and learn about what I've been up to in my blog that I likely won't update! Click [here](https://cpnewkirk.github.io/myWebsite/) to start exploring! This is optimized for most mobile devices as well.
 
@@ -8,10 +8,9 @@ This code does not need to be downloaded. Simply view in-browser by clicking [th
 
 To run this code locally, clone this repo, open it in your terminal, then run this code.
 
-```
-cd ./myWebsite
-npm run dev
-```
+    npm install
+    npm run dev      # local preview
+    npm run build    # outputs dist/ (upload to your host)
 
 ## Technologies Used
 
@@ -28,3 +27,6 @@ One of the most challenging pieces of this project was specificity of styles and
 ## Future Work
 
 I want to refactor the code to go over each item in the blog array and take every unique tag from all of the posts, then use those to create the filter.
+
+## Edit content
+All text, projects, CV entries and links live in `src/data.js`.
