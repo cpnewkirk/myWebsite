@@ -116,6 +116,10 @@ main { outline: none; min-height: 60vh; }
 /* LOGO SLOTS */
 .logo-slot { display: grid; place-items: center; border-radius: var(--radius); background: var(--paper); border: 2px solid var(--line); overflow: hidden; }
 .logo-slot img { max-width: 100%; max-height: 100%; object-fit: contain; padding: 1rem; }
+.logo-link { display: grid; place-items: center; width: 100%; height: 100%; text-decoration: none; }
+.logo-link:focus-visible { outline-offset: -6px; }
+.logo-link:hover img { transform: scale(1.03); }
+.logo-slot img { transition: transform .3s var(--ease); }
 .logo-lg { aspect-ratio: 1 / 1; width: 100%; max-width: 340px; }
 .logo-md { height: 150px; width: 260px; max-width: 100%; }
 .logo-sm { height: 84px; width: 170px; }
