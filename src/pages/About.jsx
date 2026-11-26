@@ -29,7 +29,7 @@ export default function About() {
         </p>
       </div>
 
-      <h2 className="section-title mt-5">How I work</h2>
+      {/* <h2 className="section-title mt-5">How I work</h2> */}
       <ProcessStepper />
 
       <div className="tile mt-5">

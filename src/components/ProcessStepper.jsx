@@ -1,5 +1,5 @@
 import { useState, useRef } from "react";
-import { process } from "../data.js";
+import { process, processIntro } from "../data.js";
 
 export default function ProcessStepper() {
   const [active, setActive] = useState(0);
@@ -21,6 +21,11 @@ export default function ProcessStepper() {
 
   return (
     <div className="stepper">
+      <div className="process-intro">
+        <p className="eyebrow">{processIntro.eyebrow}</p>
+        <h3>{processIntro.title}</h3>
+        <p>{processIntro.text}</p>
+      </div>
       <div className="stepper-track" role="tablist" aria-label="How I work" onKeyDown={onKeyDown}>
         {process.map((s, i) => (
           <button
