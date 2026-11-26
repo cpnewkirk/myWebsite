@@ -1,11 +1,21 @@
+
 import { useState } from "react";
 import ProjectCard from "../components/ProjectCard.jsx";
 import LogoSlot from "../components/LogoSlot.jsx";
-import { projects, filters, logos, site } from "../data.js";
+import { projects, filters, logos, thumbnails, site } from "../data.js";
 
 export default function Work() {
   const [filter, setFilter] = useState("All");
-  const shown = projects.filter((p) => filter === "All" || p.tags.includes(filter));
+  const shown = projects.filter(
+    (p) => filter === "All" || p.tags.includes(filter)
+  );
+
+  const projectThumbnails = {
+    chao: thumbnails.chao,
+    docuseries: thumbnails.docuseries,
+    "visual-novel": thumbnails.despairDebacle,
+    trivia: thumbnails.triviaMaster,
+  };
 
   return (
     <div className="page container">
@@ -26,6 +36,7 @@ export default function Work() {
           </button>
         ))}
       </div>
+
       <p className="visually-hidden" role="status" aria-live="polite">
         Showing {shown.length} {shown.length === 1 ? "project" : "projects"}
       </p>
@@ -33,7 +44,19 @@ export default function Work() {
       <div className="project-grid">
         {shown.map((p) => (
           <ProjectCard key={p.id} project={p}>
-            {p.featured && <LogoSlot logo={logos.project} size="lg" className="card-logo" />}
+            {p.featured ? (
+              <LogoSlot
+                logo={logos.project}
+                size="lg"
+                className="card-logo"
+              />
+            ) : projectThumbnails[p.id] ? (
+              <LogoSlot
+                logo={projectThumbnails[p.id]}
+                size="lg"
+                className="card-thumbnail"
+              />
+            ) : null}
           </ProjectCard>
         ))}
       </div>
@@ -41,7 +64,8 @@ export default function Work() {
       <div className="partner partner-compact">
         <LogoSlot logo={logos.terentia} size="sm" />
         <p className="mb-0">
-          <strong>{site.brand}</strong> is a community partner of {logos.terentia.name}.
+          <strong>{site.brand}</strong> is a community partner of{" "}
+          {logos.terentia.name}.
         </p>
       </div>
     </div>

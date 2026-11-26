@@ -73,8 +73,8 @@ export default function Home() {
       {/* PROCESS */}
       <section className="section">
         <div className="container">
-          <h2 className="section-title">How I work</h2>
-          <p className="section-sub">Tap through my process. Each step links to something I've actually made.</p>
+          {/* <h2 className="section-title">How I work</h2> */}
+          {/* <p className="section-sub">Tap through my process. Each step links to something I've actually made.</p> */}
           <ProcessStepper />
         </div>
       </section>
